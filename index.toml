@@ -2041,7 +2041,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "f1518b9325a7fa419cfb856774ab3065e12b3d6c467ae566a8e07d7cb9929857"
+hash = "5906ab9415bb5d894dc41bc4b0035d3c22e261877cf8578c2c4c45af8b4bb159"
 metafile = true
 
 [[files]]
@@ -2082,6 +2082,16 @@ metafile = true
 [[files]]
 file = "mods/caelus.pw.toml"
 hash = "86cf2ae835b8f3d981af2e88a4d19fdc3dc4f5aa3904c6ba30e25d77d3e9fcbb"
+metafile = true
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "14f862ceab11545e0a446df8c91c95ae7434ca4975db1357ad2001b6ec321e45"
+metafile = true
+
+[[files]]
+file = "mods/cccbridge.pw.toml"
+hash = "38dbb44c2a708ece689e5d371a7083aaa4f40392b37082ea039f799965314963"
 metafile = true
 
 [[files]]
@@ -2186,7 +2196,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
-hash = "59beba57945e374108e22789e8fc32d2758174929ebd9bf17fc139956dc32e30"
+hash = "c097a9ac7347a201e71f66fe7419867b511a5dbfce9fbadc1c9aeb19c6c665ab"
 metafile = true
 
 [[files]]
@@ -2461,7 +2471,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
+hash = "c04968e3f91f85f8f545dc8e3eb0d512116d06f8d40c089745e4c847d1e65e3c"
 metafile = true
 
 [[files]]
@@ -3045,6 +3055,16 @@ hash = "f28ceb27bc3ed0a9825de1f853d177b69495deab9128aa05694616e4504ddb52"
 metafile = true
 
 [[files]]
+file = "mods/waystones-sable.pw.toml"
+hash = "a0af98e0e0baa6d0af6a52bfef7817323cb8b267a8f42fc148234146801806b3"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "b7549da2e8e2a3e91b49a7154f7d248c5fd46fed051dbdc5561439fe83eb3e97"
+metafile = true
+
+[[files]]
 file = "mods/what-are-they-up-to.pw.toml"
 hash = "9e0251f101f4ff1dd8980abad19b876a767c0fa9980024a902e54202fbc6d9be"
 metafile = true
@@ -3090,6 +3110,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/c-u-3d-wrench-model.pw.toml"
 hash = "7a9cc3348e873c9fdc568ea87df5e0a496c9fcbaf9fc827e2d204f9c823c9219"
+metafile = true
+
+[[files]]
+file = "resourcepacks/computer-craft-recreated.pw.toml"
+hash = "9851474c490eb2ab8cadbf5fad363aa1b4139b34d87cfa0d87f81afbe78d2556"
 metafile = true
 
 [[files]]
@@ -3140,6 +3165,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/stay-true.pw.toml"
 hash = "5c98064f8e8b4d6bd97cb3230f7b5a620bae73cd0a1d45a4dc28c2864972ac4b"
+metafile = true
+
+[[files]]
+file = "resourcepacks/supplementaries-touch-ups.pw.toml"
+hash = "9201e27ac5bdc25095493e334d15fca23646b1110dc2b6994d1a78c1eae381ab"
 metafile = true
 
 [[files]]
