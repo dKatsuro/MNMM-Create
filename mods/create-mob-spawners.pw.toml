@@ -1,13 +1,13 @@
 name = "Create: Mob Spawners"
-filename = "create_mob_spawners-1.0.0.jar"
+filename = "create_mob_spawners-1.1.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "43f6627a7670c0053f76127eac51d0ff2985ce9e"
+hash = "5edb925959017684c8142717707aa7a776eca430"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7342352
+file-id = 8439680
 project-id = 1175578

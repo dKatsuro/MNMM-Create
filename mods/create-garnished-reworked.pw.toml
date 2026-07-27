@@ -1,13 +1,13 @@
 name = "Create: Garnished Reworked"
-filename = "creategarnished-0.1.7.4+1.21.1-neoforged.jar"
+filename = "creategarnished-april-foods-26-neoforged.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "dd1526bd1ac76197b15f4b0bbbabc89ab858d623"
+hash = "f646e681b20bc1e81a1ed5121fd0e12b23c8f70f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7575506
+file-id = 7802499
 project-id = 1236537
