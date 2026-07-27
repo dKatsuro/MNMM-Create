@@ -1,6 +1,6 @@
 name = "Create Style Hopper"
 filename = "Create_Style_Hopper_24_5_29.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

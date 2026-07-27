@@ -1,6 +1,6 @@
 name = "Create Addons Fix"
 filename = "Create_Addons_Fix_v1.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

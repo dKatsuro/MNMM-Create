@@ -1,6 +1,6 @@
 name = "Boat Item View (Forge/Neoforge)"
 filename = "boatiview-neoforge-0.0.6-1.21.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

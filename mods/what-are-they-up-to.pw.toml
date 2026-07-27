@@ -1,6 +1,6 @@
 name = "What Are They Up To (Watut)"
 filename = "watut-neoforge-1.21.0-1.2.7.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

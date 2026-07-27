@@ -1,6 +1,6 @@
 name = "GUI Retextures"
 filename = "guiretextures-darkmode-1.11.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
