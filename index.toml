@@ -2005,6 +2005,11 @@ hash = "4985df16c397e66f38ffcac40635a3c1f0c6448580b37f8cdc15ef902c59d312"
 metafile = true
 
 [[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "fc6a9104e056dcd9a64076b4dc7b05b4f369e29ca53db8bcc8284d98781fb73f"
+metafile = true
+
+[[files]]
 file = "mods/aeronautics-claims.pw.toml"
 hash = "a724037b478bfde9198c123ea89f84a691e18897ed8d6f9ed360d69b772d4b04"
 metafile = true
@@ -2035,8 +2040,8 @@ hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
 metafile = true
 
 [[files]]
-file = "mods/bad-wither-no-cookie-reloaded.pw.toml"
-hash = "b6504ddd75d56775ce0ec02bdebe93fd8825d9be9de0fdcb710c48e199639956"
+file = "mods/bad-wither-no-cookie.pw.toml"
+hash = "6e03a2a98f48ec03223679b5578e2f31446f19570d14ee34d2c439cfa0aead67"
 metafile = true
 
 [[files]]
@@ -2196,7 +2201,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
-hash = "c097a9ac7347a201e71f66fe7419867b511a5dbfce9fbadc1c9aeb19c6c665ab"
+hash = "829db8ba24dbf61d865bc37e31f8658782e1ca04440e32481821c88357d9f5f3"
 metafile = true
 
 [[files]]
@@ -2261,7 +2266,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-design-n-decor.pw.toml"
-hash = "1c4ef917261df03afd366b0c34307ee0fa06374b52b8e88378ce7205ab58d4e1"
+hash = "e05bc0c3ee97da0dfcf9dabd3c3eaee0e90819091ead3f500ddc3b1caf77fe54"
 metafile = true
 
 [[files]]
@@ -2441,7 +2446,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-train-parts.pw.toml"
-hash = "0a964e5b41fa828087693353df7f2a2d32636f13b80e9f28c88c6102f07f51de"
+hash = "09cb6e7676473c7394811162cb35684b11db4b1eb6d680fd7d9956c668f24864"
 metafile = true
 
 [[files]]
@@ -2631,7 +2636,7 @@ metafile = true
 
 [[files]]
 file = "mods/gears-n-kinetics.pw.toml"
-hash = "ce35bf5e845d46c98e22131cb8e04e147aafe62d3492da97a1a3090621af0281"
+hash = "ca9a6e860a062bf02cdc222775e8adaa2c0d9a38891464eeb55a12eecef69ce4"
 metafile = true
 
 [[files]]
@@ -2801,7 +2806,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "d9054c3a348ce8c3582cc525433288777d5293232ca91684cf69f6eb939375b5"
+hash = "0465e6b0fb89168b35909b8600856c6e0ae1e9a22e4f5f11edb742dbbc816ffd"
 metafile = true
 
 [[files]]
@@ -2942,11 +2947,6 @@ metafile = true
 [[files]]
 file = "mods/sinytra-connector.pw.toml"
 hash = "8ee59edeb0e357a8645ad9e78d33464c16f8b538dbf9c6a602a6d72cbf246421"
-metafile = true
-
-[[files]]
-file = "mods/skin-layers-3d.pw.toml"
-hash = "19c1e9ef46809eb5671bb3a7b76b79f89025d8ca586ca913cd99bd72d7e13488"
 metafile = true
 
 [[files]]
