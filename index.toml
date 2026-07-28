@@ -180,14 +180,6 @@ file = "config/bcc-common.toml"
 hash = "5f542da4a66455886c08d4e5a75c403474b46513c3cdc6e5f553bbf90c65e78d"
 
 [[files]]
-file = "config/bhmenu-client-1.toml.bak"
-hash = "9bb5a47b58553b1b0caab3f63dd2c3b20b2c1d0c32123a6730e103ddf5b0e95b"
-
-[[files]]
-file = "config/bhmenu-client.toml"
-hash = "c8c8ce32a716ed1a6b3402abb90d46fd825f313a46af74e14a610939ab158863"
-
-[[files]]
 file = "config/biomemusic.json"
 hash = "76b11c6250f1cac3fba02d6b0d0c78efa6a1465a752d8f79e9dfd428c4137c7c"
 
@@ -824,10 +816,6 @@ file = "config/dragonlib-server.toml"
 hash = "35a9853d167a32e93bbb829c1054454b065bf985c7148bb85e61ea065c8b42f7"
 
 [[files]]
-file = "config/drippyloadingscreen/options.txt"
-hash = "8d0edcad69219e217683bde3437b11318db348c7cce676c7c67de99b58f0ccd5"
-
-[[files]]
 file = "config/e4mc/e4mc.toml"
 hash = "d3236414d0fd31bbc7d361a6b7e239685b7791ae4d2ff4fc554a9bed286a340e"
 
@@ -888,100 +876,16 @@ file = "config/fabric/indigo-renderer.properties"
 hash = "e1abebd9b7ca905c434ccca366fbb2a6dccf5ffcdfbba21bc0145667a37be359"
 
 [[files]]
-file = "config/fancymenu/assets/bg.png"
-hash = "46f4460e57bdf43ab8e23156c1ed488ab9e95bbd672e890977820b09a2811b98"
-
-[[files]]
-file = "config/fancymenu/assets/bgcp.png"
-hash = "b0a25db4048d1f55dd5f2dcf3bc08e5534ade0e175b5bb6527c778d3c385bd12"
-
-[[files]]
-file = "config/fancymenu/assets/discord.png"
-hash = "b54d6b16720647fa248a480897a51b0c307d9c9d47a75f36960d4ce4900a55d1"
-
-[[files]]
-file = "config/fancymenu/assets/icon16x16.png"
-hash = "b584fc4f6446b9da6baef1f441c147ef160741b3b87a32ca6db846b64b69660b"
-
-[[files]]
-file = "config/fancymenu/assets/icon32x32.icns"
-hash = "37d1d82d8b8f925445158fea82120793404b0b11cd048bd59015aa6faa5e2578"
-
-[[files]]
-file = "config/fancymenu/assets/icon32x32.png"
-hash = "29e2be7ee924a1ebc741aeacc7e4854aedb5663efa14dad00d3adf2f73cd67ed"
-
-[[files]]
-file = "config/fancymenu/assets/m.png"
-hash = "50623652aa38ac9f1170dd8395fb9ec159cf1b169d4b7f46fb6f119858c35757"
-
-[[files]]
-file = "config/fancymenu/assets/mh.png"
-hash = "f7ce93d746530810f7ab5333d910a8392317102a7f55627d030aef6464b91461"
-
-[[files]]
-file = "config/fancymenu/assets/mp.png"
-hash = "e00790a55c0623bfbf8f9555a3cc9daff82f592b629a3cc92d2d25c01b76a4c1"
-
-[[files]]
-file = "config/fancymenu/assets/mph.png"
-hash = "c2dc565c60cb0a5981681b43f2273d17ff7111bbd86e18ff4c301568b9c8d1ac"
-
-[[files]]
-file = "config/fancymenu/assets/o.png"
-hash = "9abba91347d5dd11ff9324f372065c4572e0119fc8f9cfe0d4e560f3b98fd641"
-
-[[files]]
-file = "config/fancymenu/assets/oh.png"
-hash = "bece77e93387c2e5cbcfa0af4399d1d36a29059bedad2f6adad9afc15c4c5765"
-
-[[files]]
-file = "config/fancymenu/assets/patreonlarge.png"
-hash = "835fd5083fde8529d338bfc3902ca07589fe6322f08b72ed00eba1adddd3a3ee"
-
-[[files]]
-file = "config/fancymenu/assets/q.png"
-hash = "eb7f9e284983973dd37941ad0b55b99cfbe6e51114a389c4fd306b1fb79722a5"
-
-[[files]]
-file = "config/fancymenu/assets/qh.png"
-hash = "856993f23b6c1201a6337507dfe199f9b1aae557d04f5ed4108a55a596d9af17"
-
-[[files]]
-file = "config/fancymenu/assets/r.png"
-hash = "76df72a08e22b2b076e6683f40718ec6f62dfe60372cd4a06c42814f7ccbc2f2"
-
-[[files]]
-file = "config/fancymenu/assets/rh.png"
-hash = "9c2e7037fb11b03966d2cb4b7dadaca87f64112c320cad453d660458456db123"
-
-[[files]]
-file = "config/fancymenu/assets/s.png"
-hash = "8ab7d1a220399ddb4fb4d86e63efd53c742a46c7ac79b868e2abd92d689ad9f8"
-
-[[files]]
-file = "config/fancymenu/assets/sh.png"
-hash = "9329ef630331bd3e1e09df6ac4a460264379e96b61ab04fe1c88827c0a54a9f1"
-
-[[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
 hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
-
-[[files]]
-file = "config/fancymenu/customization/all_of_create.txt"
-hash = "651e5d3705fe4c9b1c00fdd017c5ae4ce70f9bbfb555da8f9e7cb90fb604cec0"
-
-[[files]]
-file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
-hash = "d53f1a226e33850cbae288408d34b569cb8faca2e7f3ce26401bedb5824c9a0f"
+hash = "a83e520716f7d5fa43025d5991acd6e2160fc43ba604bd4c258b9f5c0812830f"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "d4e66bc22fcfa56158ca7100017623c71b1437fb4722229b6e064e0a48a5f5de"
+hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -989,7 +893,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "19eeb02d5598233eaba009fd829cb85bad08cfbe75edbe9dee4fd9f15b4dae6e"
+hash = "ec024428f50996c46fb9177118404f38ba422ab3ded399bf17aea4ef491d5876"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -2090,6 +1994,16 @@ hash = "86cf2ae835b8f3d981af2e88a4d19fdc3dc4f5aa3904c6ba30e25d77d3e9fcbb"
 metafile = true
 
 [[files]]
+file = "mods/carry-on.pw.toml"
+hash = "838dbcb90c93bab58691e82c95045bd97c3e096e3a2680a00cf063e56ce35ce3"
+metafile = true
+
+[[files]]
+file = "mods/carryon-aeronautics-compat.pw.toml"
+hash = "e334e82ac7dee69f5a27fdd852851b9564fc7cdda6deb3d36be4e2a42e56b7f9"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "14f862ceab11545e0a446df8c91c95ae7434ca4975db1357ad2001b6ec321e45"
 metafile = true
@@ -2511,7 +2425,7 @@ metafile = true
 
 [[files]]
 file = "mods/drippy-loading-screen.pw.toml"
-hash = "ed31b4b816703ac3f1f00e52be969bd1fb7f7f54326bbb2ca863e85345a1eabe"
+hash = "eea753771cfbd43beb266fefdb1953f718f6aee6c78f10384c8db7150bb37d84"
 metafile = true
 
 [[files]]
@@ -2571,7 +2485,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "04112db8cc0255891c0054989255a8b95a37e97d610d8eae6d6cc12ed734cc55"
+hash = "659d62e8479f856fa167e4c84721fee905ae3582710e1e49919cf6fa135a064b"
 metafile = true
 
 [[files]]
@@ -2736,7 +2650,7 @@ metafile = true
 
 [[files]]
 file = "mods/konkrete.pw.toml"
-hash = "05aa5d04a38f1c1829e39056462b003a8cd313e22c5cd9e015a8bb413a14fdc7"
+hash = "054a1887da4f14b791910660a2a7a2035ac1382461b881a65fe07b224c03735f"
 metafile = true
 
 [[files]]
@@ -2771,7 +2685,7 @@ metafile = true
 
 [[files]]
 file = "mods/melody.pw.toml"
-hash = "331f9551b85f075a6398c8cf1d9ced0d2c0b643ab4db6ea1609666846c0208f1"
+hash = "d7ff27bf5e0c0bd5ede8303d5a41cec193f700292c78c86ad6812a5193f013d9"
 metafile = true
 
 [[files]]
@@ -3145,11 +3059,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/create-touch-ups.pw.toml"
 hash = "32881fab42234726a5de566a4562ca70ae924f1c7b0332b6d5b25af656fdba68"
-metafile = true
-
-[[files]]
-file = "resourcepacks/create-ui.pw.toml"
-hash = "cfa32c6a1ac16a0b98a9e1ffc6d133aa0824780f0a72ba5532e31b4baee50aaf"
 metafile = true
 
 [[files]]
