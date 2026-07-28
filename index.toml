@@ -177,7 +177,7 @@ hash = "9923b77b07293c6ae5363fde993daa3597423ded51756528d2830c01a5f716ea"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "5f542da4a66455886c08d4e5a75c403474b46513c3cdc6e5f553bbf90c65e78d"
+hash = "d0719f4dd1bb3061091085bb3f809d9c26800aaf6aa3221efe306acb793e72b7"
 
 [[files]]
 file = "config/biomemusic.json"
@@ -301,7 +301,7 @@ hash = "806dc2002f95b1bcd16dec843051abc513576a1986ea1931d8c2cc82aef201c7"
 
 [[files]]
 file = "config/crash_assistant/config.toml"
-hash = "5cfa30c198a0869eff6da20beb30e64b2410a595ae5c80768ae5433fec2b1c7a"
+hash = "988d60da4db594f5fee9f275db96279dbb1472d7e2854a8acf841685a475bfba"
 
 [[files]]
 file = "config/crash_assistant/crash_assistant_localization_overrides/README.md"
@@ -1585,7 +1585,7 @@ hash = "d032da8f9949a7b5bb7b4d94fac45e4d10a8820eeb54afbf13363ed5cb97931a"
 
 [[files]]
 file = "config/serverbrowser.conf"
-hash = "b748643468080769d8cdff78fe6590d60d56f46fcf8b7d78ec3f2a3189bdc54b"
+hash = "528f8f3b24fb99cf20477db67e2699277b7806de3a6abfa41090c4f25ff0b6d7"
 
 [[files]]
 file = "config/simple-rpc/server-entries.legacy"
