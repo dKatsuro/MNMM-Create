@@ -1,13 +1,8 @@
-name = "Create: Dreams n' Desires"
+name = "create-dreams-desires"
 filename = "DnDesires-1.21.1-2.3a-BETA.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "72635119b4bcc49b050c50d6cbb1abb02bb3982a"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 8037481
-project-id = 864781
+url = "https://github.com/dKatsuro/MNMM-Create/releases/download/mods-v1/DnDesires-1.21.1-2.3a-BETA.jar"
+hash-format = "sha256"
+hash = "d3f7f2384e8327c81671f2d48df15a0bba98ef04b727a430079cfc9145a7a379"

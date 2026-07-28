@@ -1910,7 +1910,7 @@ metafile = true
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
-hash = "fc6a9104e056dcd9a64076b4dc7b05b4f369e29ca53db8bcc8284d98781fb73f"
+hash = "c1f98a1e9d7201f0b6ddc3f705f43a53f7539978f48425de5c1177a310fe7b86"
 metafile = true
 
 [[files]]
@@ -1945,7 +1945,7 @@ metafile = true
 
 [[files]]
 file = "mods/bad-wither-no-cookie.pw.toml"
-hash = "6e03a2a98f48ec03223679b5578e2f31446f19570d14ee34d2c439cfa0aead67"
+hash = "91c5f289f65efc2e79d2f8592bb5e8fc3784e6b90ebbc0f036c57b4cbbf06c75"
 metafile = true
 
 [[files]]
@@ -2000,7 +2000,7 @@ metafile = true
 
 [[files]]
 file = "mods/carryon-aeronautics-compat.pw.toml"
-hash = "e334e82ac7dee69f5a27fdd852851b9564fc7cdda6deb3d36be4e2a42e56b7f9"
+hash = "575ebf4c7a4d60e8db84e1dbbfed2c9bc73cd50abd61e5f37d92ac9a97cfd900"
 metafile = true
 
 [[files]]
@@ -2195,7 +2195,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-dreams-desires.pw.toml"
-hash = "21c83a2a79ec084cf15634b178ad86c078e21a08ac1183d4ae2c09200a06e031"
+hash = "741dc99c0c31365302a9b49e3b19740ce44b98bc86945b58bf1eec8a432ad574"
 metafile = true
 
 [[files]]
@@ -2590,7 +2590,7 @@ metafile = true
 
 [[files]]
 file = "mods/industrialized-architecture.pw.toml"
-hash = "be17370c2f959697b1d75cf87036b58bdb01c45de9205c9e7ee8c7f354078ee9"
+hash = "63ef048031a4549c9dd56ddb654250ba6c89c604e3e56bfe2ae35ce8c39e0821"
 metafile = true
 
 [[files]]
@@ -2720,7 +2720,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "0465e6b0fb89168b35909b8600856c6e0ae1e9a22e4f5f11edb742dbbc816ffd"
+hash = "e92633222b9275744ba9ae7a90781494f67933924b56ea8287c5dc7553e77e17"
 metafile = true
 
 [[files]]
@@ -3028,7 +3028,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/computer-craft-recreated.pw.toml"
-hash = "9851474c490eb2ab8cadbf5fad363aa1b4139b34d87cfa0d87f81afbe78d2556"
+hash = "81de186c008b60dc1525a9cd717a8318d8b5240b312b604a7abb3d1a29a35869"
 metafile = true
 
 [[files]]
@@ -3078,7 +3078,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/supplementaries-touch-ups.pw.toml"
-hash = "9201e27ac5bdc25095493e334d15fca23646b1110dc2b6994d1a78c1eae381ab"
+hash = "79bb0244bfeea65a29b9c4ed82e2fca874873282236021e5b2004c34a1c24ab7"
 metafile = true
 
 [[files]]
