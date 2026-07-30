@@ -3,11 +3,11 @@ filename = "create-central-kitchen-2.5.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "caa89b624caad7a9304872a236e74ea4c143972c"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/btq68HMO/versions/kmHFmmpV/create-central-kitchen-2.5.0.jar"
+hash-format = "sha512"
+hash = "a184285bd2dc3181c7a0cc1a3af8501e5ce6caa566fec14d7f3d06555707fcbac855c3b8f56d71c6e6e223df377c7f05024093046899f4375d5c65580cc62972"
 
 [update]
-[update.curseforge]
-file-id = 8221844
-project-id = 820977
+[update.modrinth]
+mod-id = "btq68HMO"
+version = "kmHFmmpV"

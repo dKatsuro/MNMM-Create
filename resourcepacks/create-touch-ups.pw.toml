@@ -3,11 +3,11 @@ filename = "Create Touch-Ups v1.0.zip"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "8d6e637d9f9dcad4a693c9c3c460b8aef8ed5de0"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/BmapKTHd/versions/aoJf3Iu6/Create%20Touch-Ups%20v1.0.zip"
+hash-format = "sha512"
+hash = "64f44f78f580428454f071f3af4662fd54ba8dcce5ad1d4c57b6408807214cc7c5aeb98d519a3f91f02df39b92c2f14badda4e994a5b0caacda1f67c7d40516a"
 
 [update]
-[update.curseforge]
-file-id = 6292148
-project-id = 656900
+[update.modrinth]
+mod-id = "BmapKTHd"
+version = "aoJf3Iu6"

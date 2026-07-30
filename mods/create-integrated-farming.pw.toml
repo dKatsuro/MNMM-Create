@@ -3,11 +3,11 @@ filename = "create-integrated-farming-1.2.6.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "e545c5d164948cfd1fd2bb9c16731d8c51c81035"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/9k1pAsfR/versions/FlSODr7U/create-integrated-farming-1.2.6.jar"
+hash-format = "sha512"
+hash = "b488efd5c241d5e2cbcde7fec4abdcb010f258bf596892f9eecc278bfd9c8acd475b17ac44205b3eeee619bb76c776f887b524dbf664b3fa1e32147669cb8718"
 
 [update]
-[update.curseforge]
-file-id = 8225206
-project-id = 1249131
+[update.modrinth]
+mod-id = "9k1pAsfR"
+version = "FlSODr7U"

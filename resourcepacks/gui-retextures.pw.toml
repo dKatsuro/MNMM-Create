@@ -3,11 +3,11 @@ filename = "guiretextures-darkmode-1.11.zip"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "afbdc4797ddb2a8d4b1ab2d387858d42932c4b82"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/ZM5PH9W6/versions/6QIOVXHF/guiretextures-darkmode-1.11.zip"
+hash-format = "sha512"
+hash = "26cb2409f9fc17ab690d71c03534f3bbe3e4388653681d648cff04fe7de7ac78181cd87e1d541c6c09a3deb8965d4a04b775260dc895aee135223feef4576409"
 
 [update]
-[update.curseforge]
-file-id = 5287031
-project-id = 412189
+[update.modrinth]
+mod-id = "ZM5PH9W6"
+version = "6QIOVXHF"

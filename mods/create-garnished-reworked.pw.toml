@@ -3,11 +3,11 @@ filename = "creategarnished-april-foods-26-neoforged.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f646e681b20bc1e81a1ed5121fd0e12b23c8f70f"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/f1wEzr0F/versions/ODnfYWc7/creategarnished-april-foods-26-neoforged.jar"
+hash-format = "sha512"
+hash = "587a5449ea1f22874b53ede8e3d3bab225560b5586530c6d0a67b167644dfcbc2d0640d913b1711c1221d617def7df836f284e7925346eceac92a05790673067"
 
 [update]
-[update.curseforge]
-file-id = 7802499
-project-id = 1236537
+[update.modrinth]
+mod-id = "f1wEzr0F"
+version = "ODnfYWc7"

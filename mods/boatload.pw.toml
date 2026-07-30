@@ -3,11 +3,11 @@ filename = "boatload-1.21.1-6.0.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "fffd4975bdf2b1525e93b94c823ba4ae1649fbf7"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/hevpK888/versions/cizR5egt/boatload-1.21.1-6.0.2.jar"
+hash-format = "sha512"
+hash = "4814dd93098919ad4b5633a3f95ab1fe00e05d31ae114208c52de0ea3c23c605fa850ec877eb6e50cc10d18b42244d1e411b4f79d3252308465bb68f5f0a95e1"
 
 [update]
-[update.curseforge]
-file-id = 7118750
-project-id = 337396
+[update.modrinth]
+mod-id = "hevpK888"
+version = "cizR5egt"

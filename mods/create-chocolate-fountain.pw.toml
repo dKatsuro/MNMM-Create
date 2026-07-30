@@ -3,11 +3,11 @@ filename = "create_chocolate_fountain-1.21.1-1.1.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "9b748bf4fcb8b5a3b345763c73c4f60f0b981085"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/uAn01eey/versions/mBNDwtat/create_chocolate_fountain-1.21.1-1.1.0.jar"
+hash-format = "sha512"
+hash = "d40c4e833431609e0ecf81a708691a2c264ed86f151444e3f0194237a42b8f6a40689654dad4e806c6320acd7b4d33e1f17b796fe261e2c50d220173f628ccec"
 
 [update]
-[update.curseforge]
-file-id = 7651561
-project-id = 1232926
+[update.modrinth]
+mod-id = "uAn01eey"
+version = "mBNDwtat"

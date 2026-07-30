@@ -1,0 +1,21 @@
+# Forge/NeoForge rotating config backups — regenerated at runtime, never ship these
+*.toml.bak
+*.json.bak
+
+# CSC (Create: Schematic Checker) runtime state — logs, counters, user schematic backups.
+# config.toml, user_rule.json and online/ rules are real config and ARE tracked.
+config/CSC/Log/
+config/CSC/Data/
+config/CSC/backup/
+config/CSC/*.log
+
+# Generated shaderpack output — EuphoriaPatcher rebuilds these from the base packs
+# in shaderpacks/ on launch. Only the base pack metafiles belong in git.
+shaderpacks/*+ EuphoriaPatches*/
+
+# Packwiz-downloaded artifacts (the .pw.toml metafiles are the source of truth)
+config/paxi/datapacks/*.zip
+!config/paxi/datapacks/aoc_aero.zip
+!config/paxi/datapacks/ExtraCreateRecipes.zip
+!config/paxi/datapacks/create waystones 1.21.zip
+!config/paxi/datapacks/thingsandmisc_crushedmagma_disable.zip

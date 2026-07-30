@@ -3,11 +3,11 @@ filename = "reliable_remover-neoforge-1.21.1-2.10.7.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3ec2671b5ace0fdc016dc2fecf438edc048d39df"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/pLxsKvNt/versions/b83t34Mv/reliable_remover-neoforge-1.21.1-2.10.7.jar"
+hash-format = "sha512"
+hash = "636da5ef07c05bc5b4f16bfeb9d8a85144ffbfa3aac98c3cca3253306e6d80f5aeb71d0ae468e38e7ebd219b0ca61d66ab79d2b4da6a69ad73e5f96cbb9143a4"
 
 [update]
-[update.curseforge]
-file-id = 8517295
-project-id = 1420447
+[update.modrinth]
+mod-id = "pLxsKvNt"
+version = "b83t34Mv"

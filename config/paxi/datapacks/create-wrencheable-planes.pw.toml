@@ -1,0 +1,13 @@
+name = "Create: Wrencheable Planes"
+filename = "WrencheablePlanes2.0.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bOaXbJsz/versions/rIfwenSa/WrencheablePlanes2.0.zip"
+hash-format = "sha512"
+hash = "2e79c3a1107ef1d7cf4669af878fb52247a9f5dbe7a3bcd781ceb373f820d65c1c94b81ffba3c7357a96246a1fab9e2d1adeb115baee83d62686bc108ba9f64d"
+
+[update]
+[update.modrinth]
+mod-id = "bOaXbJsz"
+version = "rIfwenSa"

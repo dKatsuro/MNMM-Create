@@ -3,11 +3,11 @@ filename = "create_fantasizing-1.21.1-1.2.0-b2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "81f06dbe1397ae89e7470837dbe0a9e52ed83bf7"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/UvrmqS41/versions/S0sTkapb/create_fantasizing-1.21.1-1.2.0-b2.jar"
+hash-format = "sha512"
+hash = "a2667d346a90359dcd1e3d8af8c480a72011a6ecd0f5bd5e4919c59d7773970ff483b58e05a80c5a59a0b2c8d5afd56418ada8e1dd691b2407a9b3c08fc80e65"
 
 [update]
-[update.curseforge]
-file-id = 8416350
-project-id = 1279337
+[update.modrinth]
+mod-id = "UvrmqS41"
+version = "S0sTkapb"
