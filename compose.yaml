@@ -1,0 +1,67 @@
+# MNMM Create — server deployment (Komodo / docker compose)
+#
+# The modpack itself is defined by packwiz in this same repo; the server pulls it
+# from PACKWIZ_URL at container start. Pushing a mod change here and redeploying
+# is all that is needed to sync the server.
+#
+# This file is excluded from the pack via .packwizignore so it is never shipped
+# to client installs.
+#
+# Required .env values: MINECRAFT_SERVER_VERSION, TZ, CONFIG_PATH, RCON_PASSWORD
+
+services:
+  mnmm-create:
+    image: itzg/minecraft-server:${MINECRAFT_SERVER_VERSION}
+    container_name: MNMM-Create
+    hostname: MNMM-Create
+    tty: true
+    stdin_open: true
+    environment:
+      TZ: ${TZ}
+      EULA: "TRUE"
+
+      # --- loader: must match pack.toml exactly ---
+      TYPE: "NEOFORGE"
+      VERSION: "1.21.1"
+      NEOFORGE_VERSION: "21.1.233"
+
+      # --- the modpack ---
+      PACKWIZ_URL: "https://raw.githubusercontent.com/dKatsuro/MNMM-Create/main/pack.toml"
+
+      # --- memory / GC ---
+      MEMORY: "12G"
+      JVM_XX_OPTS: "-XX:+UseZGC -XX:+ZGenerational -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:+PerfDisableSharedMem -XX:+UseDynamicNumberOfGCThreads"
+
+      # --- gameplay ---
+      DIFFICULTY: "normal"
+      # Create Aeronautics puts players in the air constantly; without this they
+      # are kicked for flying.
+      ALLOW_FLIGHT: "TRUE"
+      LEVEL: "MNMM Create"
+      SERVER_NAME: "MNMM Create"
+      MOTD: "MNMM Create"
+      SIMULATION_DISTANCE: "8"
+      # Disables the tick watchdog. Large Create contraptions and Aeronautics
+      # airships can exceed the 60s limit and trigger a spurious crash.
+      MAX_TICK_TIME: "-1"
+      STOP_SERVER_ANNOUNCE_DELAY: "30"
+
+      RCON_PASSWORD: ${RCON_PASSWORD}
+    volumes:
+      - ${CONFIG_PATH}/minecraft/MNMM-Create:/data
+    ports:
+      - "25565:25565"
+    networks:
+      - internal
+    healthcheck:
+      test: mc-health
+      # First boot downloads 212 mods before the server accepts connections.
+      start_period: 5m
+      interval: 5s
+      retries: 20
+    stop_grace_period: 60s
+    restart: unless-stopped
+
+networks:
+  internal:
+    driver: bridge

@@ -1,0 +1,19 @@
+# Files that live in this repo but must NOT be distributed to clients.
+# packwiz indexes every file in the pack directory unless listed here.
+# (Dotfiles such as .gitignore/.gitattributes are already skipped by default.)
+#
+# Patterns use gitignore syntax, so they are ANCHORED to the repo root with a
+# leading slash. Without it, "README.md" would also match mod-shipped files such
+# as config/NoChatReports/README.md, which do belong in a client install.
+
+# Server deployment — consumed by Komodo, irrelevant to a client install
+/compose.yaml
+/compose.yml
+/docker-compose.yml
+/docker-compose.yaml
+/.env
+/.env.*
+
+# Repo documentation
+/README.md
+/LICENSE
