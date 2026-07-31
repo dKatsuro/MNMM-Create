@@ -1473,6 +1473,11 @@ hash = "d71977ecbd4b6e5d59f439a09e9a852ed8a91b922927e44c45114f59ef5cae1a"
 metafile = true
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "ae8278cd8e38134d2b479c6665fe705c5fc6f4cd840b8b2b8f6a263d4e0bea96"
+metafile = true
+
+[[files]]
 file = "mods/client-crafting.pw.toml"
 hash = "c4222841169214cd4db3ee2347e3d41a0eb9451e6b09f80d0e2739f25b5ddd44"
 metafile = true
