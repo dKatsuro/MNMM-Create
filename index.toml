@@ -678,7 +678,7 @@ hash = "7f8be4016c828e364ca3ce60654ef5e75d3d803b4c05468df68351a5d335dde9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "13a18d752dff1ec9000a8c8cdd22e6e9461a9dac664f0db021f4b0d71b1e5201"
+hash = "c353c4db7cc3fdb7916ed724219296aa08a1265b02b01364755569c610e659ee"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -686,11 +686,11 @@ hash = "0c14fb49e0d969656140429dd564e46ab68af26821b420b2ada7741d184973c9"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "9c1cb8802de4dca16b8c3ab1bc5642b9e3d71e63c8245e60910534be9e5d5905"
+hash = "cef5a0c64a4fae1dcdcefd3cb0f4eac385b08c524efcdbd4f51bf062c8b0532d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/pt_br.snbt"
-hash = "1812e4107d13645dbe75364b9d4cdeff66a1eccd77e57515b75efd15e87b809a"
+hash = "701ded8622a2d86e8d0b5e41063be74aa90a548d18a193d09403e0f7d0c9ab78"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/create.snbt"
@@ -1305,7 +1305,7 @@ hash = "7d856d3f9655abc661ac67b450a0c956bbf80323786b407301fbdca02d2c5b8b"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "e7728600de72194d82280d8a9d88c713a095201ff1da8e62b2ef977c21154da2"
+hash = "2203cf5c957875c559ab0e9f6c4ade098c693340942d5d46b7c563b513047560"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
