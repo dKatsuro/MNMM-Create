@@ -17,3 +17,11 @@
 # Repo documentation
 /README.md
 /LICENSE
+
+# Local debugging scratch — captured server logs, crash dumps. Not anchored,
+# because these can legitimately be dropped anywhere while investigating.
+# Kept out of git by .gitignore as well.
+*.txt.bak
+*.log
+crash-reports/
+logs/

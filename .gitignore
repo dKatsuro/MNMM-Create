@@ -2,6 +2,14 @@
 *.toml.bak
 *.json.bak
 
+# Local scratch: captured server logs, crash dumps, ad-hoc notes dropped in the
+# pack root while debugging. See .packwizignore — these must be kept out of the
+# pack index too, or packwiz ships them to every client.
+*.txt.bak
+*.log
+crash-reports/
+logs/
+
 # CSC (Create: Schematic Checker) runtime state — logs, counters, user schematic backups.
 # config.toml, user_rule.json and online/ rules are real config and ARE tracked.
 config/CSC/Log/

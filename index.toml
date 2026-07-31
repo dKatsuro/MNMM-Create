@@ -1466,11 +1466,6 @@ hash = "838dbcb90c93bab58691e82c95045bd97c3e096e3a2680a00cf063e56ce35ce3"
 metafile = true
 
 [[files]]
-file = "mods/carryon-aeronautics-compat.pw.toml"
-hash = "5dd4552f1e29c6db54ea43a7c56e298de7f8e467bd5a61a211f9c3362b5528b2"
-metafile = true
-
-[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "14f862ceab11545e0a446df8c91c95ae7434ca4975db1357ad2001b6ec321e45"
 metafile = true
@@ -2002,7 +1997,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "cf830d58f960a29252c03ad6d90c3a3f97be26b0cd113f89210b7f70a41e4c06"
+hash = "4b440e95a769b1e21f9c4fc564804ff3b23f384f7ba832cc8a72e6db6191d503"
 metafile = true
 
 [[files]]
@@ -2422,7 +2417,7 @@ metafile = true
 
 [[files]]
 file = "mods/sinytra-connector.pw.toml"
-hash = "8ee59edeb0e357a8645ad9e78d33464c16f8b538dbf9c6a602a6d72cbf246421"
+hash = "3c6689f1ad38cfd4807656e0da098b58d22f5dce75421d9ab1da983834e0f8f5"
 metafile = true
 
 [[files]]

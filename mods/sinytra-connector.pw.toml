@@ -1,6 +1,9 @@
 name = "Sinytra Connector"
 filename = "connector-2.0.0-beta.15+1.21.1-full.jar"
-side = "both"
+# Client-only: its sole consumer in this pack is Continuity (side = "client").
+# On a dedicated server it loads zero Fabric mods and only adds classloading
+# transformations, which Moonlight logs an ERROR about.
+side = "client"
 
 [download]
 hash-format = "sha1"
