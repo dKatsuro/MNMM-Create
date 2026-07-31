@@ -766,7 +766,7 @@ hash = "76f4633ce93445570498a69aa46970a1b11e9b46ff5f37c21dfaf8db2ae54f0d"
 
 [[files]]
 file = "config/item_obliterator.json5"
-hash = "0c042b8e2459e041a386d5f4aeceae5f61c83195d95411187374a6584e89cdd0"
+hash = "5dd2b13f502750212eb9a7c869b02ca0b0ac0692566eb5f9f33d4d87b6f516e2"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -1029,7 +1029,7 @@ hash = "b950145c8e443b36bab070f8b7d821ebff8ee8f61eb74669bd8d7ff67d7f8cf0"
 
 [[files]]
 file = "config/reliable_remover.json"
-hash = "99358d0dabd33e288f1ab1b1e57614106470dfb9e1b68650c8b82cc31248dcbc"
+hash = "305fd4876bf99a4b80348b5308d9028beed7a1509a6f873181417a1a2eef0e95"
 
 [[files]]
 file = "config/reliable_remover/enchant.json"
