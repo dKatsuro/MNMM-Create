@@ -1029,7 +1029,7 @@ hash = "b950145c8e443b36bab070f8b7d821ebff8ee8f61eb74669bd8d7ff67d7f8cf0"
 
 [[files]]
 file = "config/reliable_remover.json"
-hash = "305fd4876bf99a4b80348b5308d9028beed7a1509a6f873181417a1a2eef0e95"
+hash = "846fc81ef0a50e8f2dc564508b25f1cb450630192997dde7325546d7f0563568"
 
 [[files]]
 file = "config/reliable_remover/enchant.json"
