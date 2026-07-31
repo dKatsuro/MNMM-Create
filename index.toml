@@ -409,6 +409,10 @@ file = "config/curios-server.toml"
 hash = "1a3bee95a96f082b8e97cccbce30c1efe1352b616c78e06d5884fd4475668add"
 
 [[files]]
+file = "config/customwindowtitle-client.toml"
+hash = "1cde049332906970c2e9a125d925ad135bccdcb13e6d13dc9f4a91a6a4198d9d"
+
+[[files]]
 file = "config/cutthrough-client.toml"
 hash = "0f1e7df65dc4fcff84594a708ebed689598dd05dec4cfca38e9f807ca817c5c0"
 
@@ -1825,6 +1829,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+metafile = true
+
+[[files]]
+file = "mods/custom-window-title.pw.toml"
+hash = "6d93ff3a644efd74b97592f348b26fa969762fa6d8c87aac68b4541035755dc8"
 metafile = true
 
 [[files]]
