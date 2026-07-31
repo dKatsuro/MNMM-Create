@@ -17,7 +17,6 @@
   //    Example: minecraft:diamond
   "blacklisted_items": [
     "create_sa:flamethrower",
-    "tfmg:flamethrower",
     "create_fantasizing:block_placer",
     "dndesires:diamond_shard",
     "dndesires:gold_mixer",

@@ -69,10 +69,6 @@ file = "config/balm-common.toml"
 hash = "9923b77b07293c6ae5363fde993daa3597423ded51756528d2830c01a5f716ea"
 
 [[files]]
-file = "config/bcc-common.toml"
-hash = "d0719f4dd1bb3061091085bb3f809d9c26800aaf6aa3221efe306acb793e72b7"
-
-[[files]]
 file = "config/biomemusic.json"
 hash = "76b11c6250f1cac3fba02d6b0d0c78efa6a1465a752d8f79e9dfd428c4137c7c"
 
@@ -770,7 +766,7 @@ hash = "76f4633ce93445570498a69aa46970a1b11e9b46ff5f37c21dfaf8db2ae54f0d"
 
 [[files]]
 file = "config/item_obliterator.json5"
-hash = "83675a068b6024e7731514a308558e5e26250571104c45c285752a49b6df7446"
+hash = "0c042b8e2459e041a386d5f4aeceae5f61c83195d95411187374a6584e89cdd0"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -1093,7 +1089,7 @@ hash = "b950145c8e443b36bab070f8b7d821ebff8ee8f61eb74669bd8d7ff67d7f8cf0"
 
 [[files]]
 file = "config/reliable_remover.json"
-hash = "66a4be427ceaca0145869d70c939b53105cd926fec85e950c50f36e1ed8eded9"
+hash = "99358d0dabd33e288f1ab1b1e57614106470dfb9e1b68650c8b82cc31248dcbc"
 
 [[files]]
 file = "config/reliable_remover/enchant.json"
@@ -1234,10 +1230,6 @@ hash = "915227c7661e9ad20c315e5910e06f4a86c24ee25ddca7126ccba657104ee48c"
 [[files]]
 file = "config/terrablender.toml"
 hash = "cff6a9a0d415b19b9852844c0ad5bb2b1cfdb9fce12e729e7228a6521fc95927"
-
-[[files]]
-file = "config/tfmg-common.toml"
-hash = "d940a15ef4b72581f90e838335f069d454b994eefec7a744838323707e70d8b3"
 
 [[files]]
 file = "config/toastcontrol-client.toml"
@@ -1423,11 +1415,6 @@ metafile = true
 [[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
-metafile = true
-
-[[files]]
-file = "mods/better-compatibility-checker.pw.toml"
-hash = "7c3b1f4819e8a3b88cadd8ed968d74491c71f504738dd0f2cd60f3ff40d80f72"
 metafile = true
 
 [[files]]

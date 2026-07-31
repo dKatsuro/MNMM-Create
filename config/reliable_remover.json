@@ -18,7 +18,6 @@
   "reloadAfterRemoval": false,
   "blacklistedItems": [
     "create_sa:flamethrower",
-    "tfmg:flamethrower",
     "create_fantasizing:block_placer",
     "dndesires:gold_mixer",
     "dndesires:diamond_shard",
