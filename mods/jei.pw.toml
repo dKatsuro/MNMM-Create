@@ -1,0 +1,20 @@
+name = "Just Enough Items (JEI)"
+filename = "jei-1.21.1-neoforge-19.43.0.392.jar"
+# Client-only, as the pack shipped it before the EMI swap. JEI is NOT here as a
+# recipe viewer -- EMI hides its overlay automatically. It is here purely so that
+# EMI's built-in JEMI bridge (dev/emi/emi/jemi/, plus a @Pseudo mixin on
+# mezz.jei.library.load.PluginCaller) has a JEI API to read. Create ships only a
+# JEI plugin (com.simibubi.create.compat.jei.CreateJEI) and no EMI plugin, so
+# without this jar every Create and Create-addon recipe is invisible in EMI.
+# Do not add TooManyRecipeViewers alongside this -- TMRV declares JEI incompatible.
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/u6dRKJwZ/versions/pSsBRqU0/jei-1.21.1-neoforge-19.43.0.392.jar"
+hash-format = "sha512"
+hash = "c3344721fedf0cdf5ba086325a48128b88615a8f5958b46c856106b06ea7741379f31f80a2759694922c5830064d8793850813df7f9ba940f8e74e2e5a47aa18"
+
+[update]
+[update.modrinth]
+mod-id = "u6dRKJwZ"
+version = "pSsBRqU0"
