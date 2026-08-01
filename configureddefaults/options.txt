@@ -134,6 +134,7 @@ key_key.emi.focus_search:key.keyboard.f:CONTROL
 key_key.emi.view_recipes:key.keyboard.r
 key_key.emi.view_uses:key.keyboard.u
 key_key.emi.favorite:key.keyboard.a
+key_key.ftbultimine:key.keyboard.grave.accent
 key_quark.keybind.autorun:key.keyboard.unknown
 key_quark.keybind.back:key.mouse.4
 key_quark.keybind.camera_mode:key.keyboard.unknown
