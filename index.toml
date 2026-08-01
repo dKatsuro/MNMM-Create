@@ -682,7 +682,7 @@ hash = "7f8be4016c828e364ca3ce60654ef5e75d3d803b4c05468df68351a5d335dde9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "c353c4db7cc3fdb7916ed724219296aa08a1265b02b01364755569c610e659ee"
+hash = "13a18d752dff1ec9000a8c8cdd22e6e9461a9dac664f0db021f4b0d71b1e5201"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -690,11 +690,11 @@ hash = "0c14fb49e0d969656140429dd564e46ab68af26821b420b2ada7741d184973c9"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "cef5a0c64a4fae1dcdcefd3cb0f4eac385b08c524efcdbd4f51bf062c8b0532d"
+hash = "9c1cb8802de4dca16b8c3ab1bc5642b9e3d71e63c8245e60910534be9e5d5905"
 
 [[files]]
 file = "config/ftbquests/quests/lang/pt_br.snbt"
-hash = "701ded8622a2d86e8d0b5e41063be74aa90a548d18a193d09403e0f7d0c9ab78"
+hash = "1812e4107d13645dbe75364b9d4cdeff66a1eccd77e57515b75efd15e87b809a"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/create.snbt"
@@ -791,6 +791,66 @@ hash = "58151eca4f809b8157df6a26825c6515812ab3f69b02f46beeb545da7a3096c0"
 [[files]]
 file = "config/jade/sort-order.json"
 hash = "7e05c0b3ca09ccdca2e158482c4e2f451b2a49d75af08cd0cb6ad00cca251b52"
+
+[[files]]
+file = "config/jei-server.toml"
+hash = "702acd04d99445bce659d04fcc488e1a98c8a803983c31ae262b0f3a47fdc8d3"
+
+[[files]]
+file = "config/jei/blacklist.json"
+hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
+
+[[files]]
+file = "config/jei/ingredient-list-mod-sort-order.ini"
+hash = "723c0b522d2be1c22ed99eadab187d08e0a1225111704334ef97fc1addc2e263"
+
+[[files]]
+file = "config/jei/ingredient-list-type-sort-order.ini"
+hash = "9be9f5ca14028eda8df857922eea736a3d1e76a85661ba90edae2682eeb0b502"
+
+[[files]]
+file = "config/jei/jei-client.ini"
+hash = "4b81687b181e1a090850f740fee9f7546a1d966dbac2281c4f825ca3c3bd2ee2"
+
+[[files]]
+file = "config/jei/jei-colors.ini"
+hash = "755f199a3868224bdccb2a8ffd8f1a4eb2d96140757f444ba31f8d677a66034f"
+
+[[files]]
+file = "config/jei/jei-debug.ini"
+hash = "960b16c7af6d62bbe7b58fb52216a8a15771bddecbeefab49a8614b7ca86dcbd"
+
+[[files]]
+file = "config/jei/jei-mod-id-format.ini"
+hash = "6a91c09d1cabc1980d90ab102a03ec58c0551213ab16a459b599d768b334d054"
+
+[[files]]
+file = "config/jei/recipe-category-sort-order.ini"
+hash = "4c947713fbe5739f2588b6e73ca697b878ee0fe6626d5481a550ee2cc2d9cb11"
+
+[[files]]
+file = "config/jei/world/local/New World/lookupHistory.json"
+hash = "f08bc4368834b771f4847075bf7f04318d3847efbdf73d701b9041638c1c2d62"
+
+[[files]]
+file = "config/jei/world/local/New_World/bookmarks.json"
+hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
+
+[[files]]
+file = "config/jei/world/local/New_World/lookupHistory.json"
+hash = "a942c1eab18a6268212e384ca2c139cfcdfc112e35e926b11625b18409c32e92"
+
+[[files]]
+file = "config/jei/world/server/Minecraft_Server_bcf9a085/lookupHistory.json"
+hash = "b58cc218005b234e9f817cdc3796ab89e2db624a94b1bfd660f742c6f140c5b8"
+
+[[files]]
+file = "config/jei/world/server/Official_Server_8b775fa4/lookupHistory.json"
+hash = "b2347e94f8591bac71674a31005065082fe5fb224960fa210baf94e2891c3062"
+
+[[files]]
+file = "config/jeresources-common.toml"
+hash = "b8e340097e9b479a5d66593f01c1c84a8a8fdc1ed960eccb11676ee7612537e2"
 
 [[files]]
 file = "config/justenoughbreeding-offsets.json"
@@ -1309,7 +1369,7 @@ hash = "7d856d3f9655abc661ac67b450a0c956bbf80323786b407301fbdca02d2c5b8b"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "2203cf5c957875c559ab0e9f6c4ade098c693340942d5d46b7c563b513047560"
+hash = "7620201956eb739c5ec081d4dbd643c51cefdc9d0e267067137673a37ccc5fc5"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -1892,41 +1952,6 @@ hash = "acca756841ee5e088eaec9474758e402247965f3adf6d7ccd612bb715aa836c9"
 metafile = true
 
 [[files]]
-file = "mods/emi-create-schematics.pw.toml"
-hash = "e0da63d5ba6b0649e29325584dd15046070f7b5b251f41fc7e33ce85be240f8f"
-metafile = true
-
-[[files]]
-file = "mods/emi-enchanting.pw.toml"
-hash = "ff029ee6fc50f2696e96cdbcc696f42e75b483c9d7b83f2b1447dcf5c865e664"
-metafile = true
-
-[[files]]
-file = "mods/emi-loot.pw.toml"
-hash = "6c396ddd793647f7afb73d6302e96cdac9165cea94945a71baae125490c02145"
-metafile = true
-
-[[files]]
-file = "mods/emi-ores.pw.toml"
-hash = "f2d72f2ec62c2396c980b79938aa2d42138856d3ac98bd650ef624a1a96ae579"
-metafile = true
-
-[[files]]
-file = "mods/emi-professions-(emip).pw.toml"
-hash = "0477d572817d9de3a5569109a8d07a2e519af9ccf0e8236cae621369afbc6e4c"
-metafile = true
-
-[[files]]
-file = "mods/emi.pw.toml"
-hash = "fdf44fbe92c8c7499e8a090e1c128bbe7c1acb4d837b60ee2f66a8f6ab2dd805"
-metafile = true
-
-[[files]]
-file = "mods/emixx.pw.toml"
-hash = "4a36c2ae2b91369b7c15b42c5090c36def29400a2917fdaefefdadbcfa31f9f2"
-metafile = true
-
-[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "7c9f1e63f2ff7454f388577f75dd4ccbfc6acb2f7122e85b426fe7755a2ccbae"
 metafile = true
@@ -1964,11 +1989,6 @@ metafile = true
 [[files]]
 file = "mods/extra-create-recipe.pw.toml"
 hash = "aa073e68b58566ec9741107511a393d578fc455492b26eedd3a15f54730ed988"
-metafile = true
-
-[[files]]
-file = "mods/extra-mod-integrations.pw.toml"
-hash = "1c516c3cdedc1a2b6bdd4d7ab12469142d5ee9dadc03e815be3f2a04b95f7135"
 metafile = true
 
 [[files]]
@@ -2034,11 +2054,6 @@ metafile = true
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "4014301633c64517bda716a78f190c119eb36499bec45ac8b6254cbfe8489ff7"
-metafile = true
-
-[[files]]
-file = "mods/fzzy-config.pw.toml"
-hash = "725fece93606fa75d5cf27b30198f1ea140efb068c32ffe2e42bffd354653ebc"
 metafile = true
 
 [[files]]
@@ -2128,7 +2143,17 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "32b0cc0a4cb50c14a8a38ee0474daaaa268291de0921644e587f5f64df3c4d6a"
+hash = "60e1d2cb347eb4f71db1982e10cc4f40798a6523faf053060a6c319ae34a6521"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-professions-jep.pw.toml"
+hash = "5831aa23204273af1ce6aeb9e3615425271689105ea9035fdb7d6ea871d08a3c"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-resources-jer.pw.toml"
+hash = "7905c08f37d8ebde50a5330a7dd10029de6259b0cb8adbde1170d93ea20218a7"
 metafile = true
 
 [[files]]

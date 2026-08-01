@@ -1,18 +1,22 @@
 name = "Just Enough Items (JEI)"
 filename = "jei-1.21.1-neoforge-19.39.0.372.jar"
-# Client-only, as the pack shipped it before the EMI swap. JEI is NOT here as a
-# recipe viewer -- EMI hides its overlay automatically. It is here purely so that
-# EMI's built-in JEMI bridge (dev/emi/emi/jemi/, plus a @Pseudo mixin on
-# mezz.jei.library.load.PluginCaller) has a JEI API to read. Create ships only a
-# JEI plugin (com.simibubi.create.compat.jei.CreateJEI) and no EMI plugin, so
-# without this jar every Create and Create-addon recipe is invisible in EMI.
+# Client-only, as the pack has always shipped it. This is the pack's recipe
+# viewer, paired with just-enough-resources (JER) and just-enough-professions
+# (JEP). EMI was trialled in its place and reverted -- see below.
 #
 # PINNED -- do not run `packwiz update jei`. Every JEI build from 19.42.0.379
 # onward requires neoforge [21.1.238,) and this pack is on 21.1.233, so they
 # hard-fail at load. 19.39.0.372 is the newest build still on [21.0.118-beta,).
 # Bumping JEI therefore requires bumping pack.toml's neoforge version first.
 #
-# Do not add TooManyRecipeViewers alongside this -- TMRV declares JEI incompatible.
+# Why not EMI: mods here register recipe-transfer handlers against the JEI API
+# only. Visual Workbench is the concrete case -- it replaces the crafting table
+# menu with fuzs.visualworkbench.world.inventory.VisualCraftingMenu and ships
+# VisualWorkbenchJEIPlugin to teach JEI about it. EMI has no equivalent, so its
+# "+" fill button reported "not enough ingredients" at every crafting table.
+# EMI's JEMI bridge cannot cover this: EMI implements only
+# IModIngredientRegistration, IRuntimeRegistration and ISubtypeRegistration --
+# IRecipeTransferRegistration is not bridged at all.
 side = "client"
 
 [download]
