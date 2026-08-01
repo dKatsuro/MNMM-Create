@@ -1,0 +1,30 @@
+name = "Just Enough Crafting Tree (JECT)"
+filename = "[1.21.1] neoforge-JECT-2.4.0.jar"
+# Client-only: every dependency in the manifest is declared side = "CLIENT" and
+# Modrinth lists server_side = unsupported. It is a pure UI mod.
+#
+# Replaces the one EMI feature worth keeping -- the recipe tree. Create recipes
+# work because JECT reads JEI's whole category registry via
+# IRecipeManager.createRecipeCategoryLookup() and renders through
+# IRecipeLayoutDrawable, rather than hardcoding RecipeTypes.CRAFTING. Create
+# ships a full JEI plugin (CreateJEI), so mixing/pressing/crushing/milling all
+# resolve in the tree, as do the Create addons.
+#
+# CurseForge-sourced deliberately: Modrinth only carries 2.0.0 (April, graded
+# BETA by the author), while CurseForge has 2.4.0 (July, graded RELEASE).
+#
+# Its jei dependency is optional and ranged [19.8.4.110,20), so it places no
+# constraint on our pinned JEI 19.39.0.372. jeb (Just Enough Breeding) is an
+# optional integration we already satisfy. Mixin config sets required = false,
+# so a failed injection degrades instead of crashing.
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "07044343673bca159fac976c5dd71a603a66ac13"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8466294
+project-id = 1456415

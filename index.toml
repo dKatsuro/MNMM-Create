@@ -2147,6 +2147,11 @@ hash = "60e1d2cb347eb4f71db1982e10cc4f40798a6523faf053060a6c319ae34a6521"
 metafile = true
 
 [[files]]
+file = "mods/just-enough-crafting-tree-ject.pw.toml"
+hash = "338156eb6579531785b8e156fc4369b1c96e1360bf62360210b5853016a238c7"
+metafile = true
+
+[[files]]
 file = "mods/just-enough-professions-jep.pw.toml"
 hash = "5831aa23204273af1ce6aeb9e3615425271689105ea9035fdb7d6ea871d08a3c"
 metafile = true
