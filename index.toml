@@ -1797,6 +1797,11 @@ hash = "2c72104b4cf249d4f096f673293a41c199d611dc9b99a9055d463fa5cd90c7cd"
 metafile = true
 
 [[files]]
+file = "mods/create-ultimine.pw.toml"
+hash = "d0b8e8fdfe39eea3efc9c2969e358c78d4387e03f522a889acd78922245f2c93"
+metafile = true
+
+[[files]]
 file = "mods/create-vibrant-vaults.pw.toml"
 hash = "960645d7f385081b108208e58bbbdfc6b93288b7bd7da90e6f229a57b237234a"
 metafile = true
@@ -2014,6 +2019,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "e717bb275a54a5caadaa7cf82bc34df3589f49402074adf93c31eaac43860313"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine-forge.pw.toml"
+hash = "d85d55c8636340075df1d9b9564d821ad3c043e3362fccd591617e3624a5a14e"
 metafile = true
 
 [[files]]
@@ -2509,6 +2519,16 @@ metafile = true
 [[files]]
 file = "mods/txnilib.pw.toml"
 hash = "bbf8f2ba1e4bba18c1f61b2f003063052f56dd9951ceae3e227b6cbf9affd29f"
+metafile = true
+
+[[files]]
+file = "mods/ultimine-rewind.pw.toml"
+hash = "b45e182b31f6c7ebe5443be470e071245a4193786fa3ddea58a4ae638f2e0eee"
+metafile = true
+
+[[files]]
+file = "mods/ultimine-unchained.pw.toml"
+hash = "44b23a3b73449f856f057fbbda606fddb10004968e79e884880afa2d9ae11d86"
 metafile = true
 
 [[files]]

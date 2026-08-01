@@ -1,0 +1,20 @@
+name = "Ultimine Rewind"
+filename = "ultimine_rewind-1.21.1-2.0.0.jar"
+# Both sides: all three manifest dependencies are side = "BOTH". Modrinth lists
+# no dependencies for this version, but the manifest requires ftbultimine
+# [2100.1.0,) -- the manifest is the authority.
+#
+# Ctrl+Z restores the last Ultimine operation. Deliberately limited: you must
+# supply the blocks to restore, block entities come back empty (anti-dupe),
+# records expire after 10 minutes, and only the most recent operation is kept.
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FTUEqY9e/versions/PTb17CRD/ultimine_rewind-1.21.1-2.0.0.jar"
+hash-format = "sha512"
+hash = "6e41584fb12585e6c58a78fd12799b9de70716ec2a1778e4781dc2dc9dc3db24e793dc31620109727538c636a88d0e27b751493b319f5db3786739098694a338"
+
+[update]
+[update.modrinth]
+mod-id = "FTUEqY9e"
+version = "PTb17CRD"

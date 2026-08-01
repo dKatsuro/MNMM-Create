@@ -1,0 +1,22 @@
+name = "Ultimine Unchained"
+filename = "ultimineunchained-1.2.0-1.21.1-NEOFORGE.jar"
+# Both sides, overriding packwiz's inference. Modrinth marks this client_side =
+# unsupported, so packwiz picked side = "server" -- but the manifest declares
+# every dependency side = "BOTH", and UltimineMixin sits in the common "mixins"
+# array (not "client"), so it applies to the integrated server too. Left as
+# server-only it would simply not be installed on the client and would silently
+# do nothing in singleplayer.
+#
+# Note the Modrinth "neoforge" tag also carries a Fabric-only jar; the correct
+# artifact is the -NEOFORGE one above (the other has no neoforge.mods.toml).
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rGNPldmX/versions/ibDPs85p/ultimineunchained-1.2.0-1.21.1-NEOFORGE.jar"
+hash-format = "sha512"
+hash = "f3a536912a4635c3f4ee183f87fc2e2d1f9c6af77d5cfb25a6fac424a809cd3b96c28d9315399f1e260b867260d94d36b105147735441690054c3f90fbf6acdc"
+
+[update]
+[update.modrinth]
+mod-id = "rGNPldmX"
+version = "ibDPs85p"
