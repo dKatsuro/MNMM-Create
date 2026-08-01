@@ -1,8 +1,22 @@
 name = "Just Enough Items (JEI)"
 filename = "jei-1.21.1-neoforge-19.39.0.372.jar"
-# Client-only, as the pack has always shipped it. This is the pack's recipe
-# viewer, paired with just-enough-resources (JER) and just-enough-professions
-# (JEP). EMI was trialled in its place and reverted -- see below.
+# BOTH sides, and it must stay that way. JEI's "+" recipe-transfer button is
+# executed server-side: BasicRecipeTransferHandler checks
+# IConnectionToServer.isJeiOnServer() and, when false, refuses with
+# jei.tooltip.error.recipe.transfer.no.server -- "The server must have JEI
+# installed." The actual item movement is done by
+# mezz.jei.common.transfer.BasicRecipeTransferHandlerServer handling
+# PacketRecipeTransfer / PacketRecipeTransferCounted, which only exists if the
+# server has the jar. The same applies to cheat mode (PacketGiveItemStack ->
+# ServerCommandUtil). This was briefly set to side = "client" and the "+" button
+# did not work on the server as a result.
+#
+# The client-facing addons stay client-only -- JER, JEP and JECT are pure UI and
+# register nothing server-side; their manifests' side = "BOTH" refers to the
+# dependency, not to the mod.
+#
+# This is the pack's recipe viewer. EMI was trialled in its place and reverted --
+# see below.
 #
 # PINNED -- do not run `packwiz update jei`. Every JEI build from 19.42.0.379
 # onward requires neoforge [21.1.238,) and this pack is on 21.1.233, so they
@@ -17,7 +31,7 @@ filename = "jei-1.21.1-neoforge-19.39.0.372.jar"
 # EMI's JEMI bridge cannot cover this: EMI implements only
 # IModIngredientRegistration, IRuntimeRegistration and ISubtypeRegistration --
 # IRecipeTransferRegistration is not bridged at all.
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/u6dRKJwZ/versions/zHNxmOqp/jei-1.21.1-neoforge-19.39.0.372.jar"
