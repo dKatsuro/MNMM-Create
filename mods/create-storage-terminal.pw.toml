@@ -1,0 +1,24 @@
+name = "Create: Storage Terminal"
+filename = "create_storage_terminal-neoforge-1.21.1-0.1.1.jar"
+# Both sides: manifest dependencies are all side = "BOTH" and the terminal
+# performs real inventory moves.
+#
+# Tightest floor in the pack: create [6.0.10,6.1.0) against our Create 6.0.10
+# exactly, so ANY Create downgrade hard-fails this. Also neoforge [21.1.222,)
+# against our 21.1.233.
+#
+# New and small -- 0.1.1 is the only published build. Overlaps in purpose with
+# Create Contraption Terminals, but they are different mods by different
+# authors: that one is the Tom's Storage addon aimed at contraptions and trains,
+# this one is standalone and attaches to vaults and modded storage blocks.
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KKwGyScN/versions/R5Ca1pVa/create_storage_terminal-neoforge-1.21.1-0.1.1.jar"
+hash-format = "sha512"
+hash = "c87dacde9e93503bd985f0022bfef91ed1b568f46691b44e938e806e6a06957c5d1b10b08c5a1ecb197d57e1edc3da733d0fa8db56d1e162838856252a55c476"
+
+[update]
+[update.modrinth]
+mod-id = "KKwGyScN"
+version = "R5Ca1pVa"

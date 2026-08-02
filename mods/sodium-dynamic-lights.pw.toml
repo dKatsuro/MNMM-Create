@@ -1,0 +1,38 @@
+name = "Sodium Dynamic Lights"
+filename = "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar"
+# Client-only: pure rendering. Added as the backend for Create: Dynamic Lights,
+# but it stands on its own -- it is the fork of LambDynLights for Sodium on
+# NeoForge (manifest authors: "toni, LambdAurora"), so it supplies the
+# handheld-torch / dropped-item / glowing-mob dynamic lighting that
+# LambDynamicLights would have provided. See create-dynamic-lights.pw.toml for
+# why LambdAurora's own mod cannot be used here instead.
+#
+# Its manifest declares only minecraft [1.21.1,), but the mixin config is
+# required = true with injectors.defaultRequire = 1 and targets Sodium directly
+# (sodium.ArrayLightDataCacheMixin, sodium.FlatLightPipelineMixin,
+# sodium.LightDataAccessMixin, sodium.SodiumOptionsGuiMixin), so Sodium is a de
+# facto hard requirement despite not being declared. We ship Sodium 0.8.12.
+#
+# DO NOT add Sodium Options API. Modrinth lists it as a required dependency of
+# this mod and `packwiz modrinth add` will pull it in automatically, but it is
+# both unnecessary and unloadable here:
+#   - unnecessary: this jar has zero references to toni/sodiumoptionsapi -- it
+#     mixins into Sodium's own options GUI rather than going through the API.
+#   - unloadable: sodiumoptionsapi 1.0.10's manifest still declares
+#     reeses_sodium_options mandatory = true (the author dropped it from the
+#     Modrinth listing but not from the jar), while Reese's Sodium Options 2.2.3
+#     declares sodiumoptionsapi type = "incompatible". Without Reese's you get a
+#     missing-dependency failure; with Reese's you get an incompatibility
+#     failure. There is no version pair that satisfies both.
+# It was pulled in once and removed again. Do not re-add it.
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/PxQSWIcD/versions/XI0WLXdn/sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar"
+hash-format = "sha512"
+hash = "ec19a81cf2dfde255990a457d8f6d7375df53cb94190dce71c4bfe5d5263f4862027ce4aa0af20cb11d56c7c031d5e149b3bdf95bec6343e5bd4552450b14c0a"
+
+[update]
+[update.modrinth]
+mod-id = "PxQSWIcD"
+version = "XI0WLXdn"

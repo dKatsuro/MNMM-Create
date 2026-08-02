@@ -1,0 +1,23 @@
+name = "Tom's Simple Storage Mod"
+filename = "toms_storage-1.21-2.4.1.jar"
+# Both sides: manifest dependencies are side = "BOTH" and the terminal moves
+# real items.
+#
+# Added as the hard dependency of Create Contraption Terminals
+# (toms_storage [2.3.0,)), but it is a full storage-network mod in its own right.
+#
+# Its sophisticatedstorage integration is optional and ranged [1.5.36,) -- we
+# ship Sophisticated Storage 1.5.83, so that integration is live.
+#
+# minecraft [1.21.0,1.21.2), neoforge [21.0.0-beta,).
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XZNI4Cpy/versions/QQqFyS6K/toms_storage-1.21-2.4.1.jar"
+hash-format = "sha512"
+hash = "a8acbdc51801a010bbf62dc95a209b4ebfbfb1f489f97f5d8f060c9d652850fa53aa3daa60b131b69069865658feb415c862d426164f9d1baf4d053f4674e687"
+
+[update]
+[update.modrinth]
+mod-id = "XZNI4Cpy"
+version = "QQqFyS6K"

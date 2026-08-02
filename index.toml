@@ -1422,6 +1422,11 @@ hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
 metafile = true
 
 [[files]]
+file = "mods/betterf3.pw.toml"
+hash = "3b7f8c785fc9ec30a529c2ef7e0c55259c92e745a0165aa24a1c1ea54016d26d"
+metafile = true
+
+[[files]]
 file = "mods/blueprint.pw.toml"
 hash = "ead3aff0899e5bc61eb22fe0af86722b430f9e92990b3cd2720d5c2c1f66d023"
 metafile = true
@@ -1514,6 +1519,11 @@ metafile = true
 [[files]]
 file = "mods/colorwheel.pw.toml"
 hash = "3f99808dda6b83374cea1d478e2688c69af71a7381b176d0a7df50d219e44ca9"
+metafile = true
+
+[[files]]
+file = "mods/comforts.pw.toml"
+hash = "150042398f374216ed8abca6898547b6f347fae10f3fc894244b212985350328"
 metafile = true
 
 [[files]]
@@ -1637,8 +1647,18 @@ hash = "61afa588fd3156a29418aef463c527308b014e72d86b5ca7c03f2f28973ca27a"
 metafile = true
 
 [[files]]
+file = "mods/create-contraption-terminals.pw.toml"
+hash = "0ffbbf78d44f35638eadef965199ae716ef97f263e3e1cdc6b0895a0b5e32c99"
+metafile = true
+
+[[files]]
 file = "mods/create-copper-splashing.pw.toml"
 hash = "8f067d4847ec4f5fd581c6323f8a069f0d273422dba347f0cfcb8b2f62a99238"
+metafile = true
+
+[[files]]
+file = "mods/create-deco.pw.toml"
+hash = "489707968aec5f58da126ede679528c9adbf747472beab47c5f45da14f85947b"
 metafile = true
 
 [[files]]
@@ -1664,6 +1684,11 @@ metafile = true
 [[files]]
 file = "mods/create-dreams-desires.pw.toml"
 hash = "741dc99c0c31365302a9b49e3b19740ce44b98bc86945b58bf1eec8a432ad574"
+metafile = true
+
+[[files]]
+file = "mods/create-dynamic-lights.pw.toml"
+hash = "a1ebd460659de7fd8e3b2deafcbb76718fcaf8c42ddd916cc20d9295e097d16d"
 metafile = true
 
 [[files]]
@@ -1822,6 +1847,11 @@ hash = "03618ecf9f2978422867cc0d8ed1809882b841129cd1a0b54eb0e4060ae661ce"
 metafile = true
 
 [[files]]
+file = "mods/create-storage-terminal.pw.toml"
+hash = "9758cc119ca081a111590cb808704b884999588beacf0e8d942d3b2059431dce"
+metafile = true
+
+[[files]]
 file = "mods/create-stuff-additions.pw.toml"
 hash = "17a87ed421639310e22a1e1d2b693dbe04c69282f2a083e030ee24f969e4b08b"
 metafile = true
@@ -1909,6 +1939,11 @@ metafile = true
 [[files]]
 file = "mods/cut-through.pw.toml"
 hash = "b2abfcd26485e785f6836f6b0d3844a5ba00a97f8c0689aa44c44d3a072ca43a"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "d087578988157954097e6720eb00a7f11d73fd5d9cc5821929a3b0874da1b9ca"
 metafile = true
 
 [[files]]
@@ -2019,6 +2054,11 @@ metafile = true
 [[files]]
 file = "mods/framework.pw.toml"
 hash = "dd0153bc05a3ffc8592dfaf35b4e8014127e6e1b352d7c18462d49a1ed7a5035"
+metafile = true
+
+[[files]]
+file = "mods/freecam.pw.toml"
+hash = "24649fefc562fc77851141c0a52cbfbb8859ddbf0a1d47d0e139003ffa4e10c1"
 metafile = true
 
 [[files]]
@@ -2194,6 +2234,11 @@ metafile = true
 [[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "e06a9a886181277591baeb9e82b484bd6204fe3aec0ffc8781bb05bb11b4d1a9"
+metafile = true
+
+[[files]]
+file = "mods/llo.pw.toml"
+hash = "d40547ae76ae4dc411f18ca64bb5e77cebe76ebf249ba49499b58c1eff6492cb"
 metafile = true
 
 [[files]]
@@ -2462,6 +2507,11 @@ hash = "75a42a9eba356b81f33bb160c5da533e7fdf90b478b43bc463d37264c47bcf4e"
 metafile = true
 
 [[files]]
+file = "mods/sodium-dynamic-lights.pw.toml"
+hash = "53e4f74872d0dfb704592061997df2545c4759be579f8de9acb8bb07a6ca1eec"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "c490445e40a84c9e19bd3d3a7c8e8b9709b8cea0346a307eb7fb8a32a72a9504"
 metafile = true
@@ -2502,6 +2552,11 @@ hash = "8c6a1b99d6b1987fff088ee0fe08303789dc2bf71739c392de8c3ffa13ff0b1b"
 metafile = true
 
 [[files]]
+file = "mods/spark.pw.toml"
+hash = "62a5263d16c2e8e6939a8b21efa307c317edbe868eeded76d0c8d8c084cb4099"
+metafile = true
+
+[[files]]
 file = "mods/structure-essentials-forge-fabric.pw.toml"
 hash = "dcbf8b45454dc87262ef3660d21e7fb73f035e3a65aa8fb6c1c711c63cec335d"
 metafile = true
@@ -2537,6 +2592,11 @@ hash = "59dba91bb98d9ec0b16dfd33cb975635a5b33a3c816b6c6a8f56d0416396b5e1"
 metafile = true
 
 [[files]]
+file = "mods/toms-storage.pw.toml"
+hash = "bbc114b209b4895ddff438afe7c504cec6e619717f71f9b1c7d309c4c9c5107d"
+metafile = true
+
+[[files]]
 file = "mods/tradeworks.pw.toml"
 hash = "be1ac9fe5e8e36cf4f51f859fb31eb6c017d8031d09f5b15e922c8ee6691febd"
 metafile = true
@@ -2544,6 +2604,11 @@ metafile = true
 [[files]]
 file = "mods/trading-post.pw.toml"
 hash = "72c0db4d726a16d80c2337cc9dc4d220ba8298deb5db5d9d58082d15a245ea3f"
+metafile = true
+
+[[files]]
+file = "mods/trash-cans.pw.toml"
+hash = "d6bc3e480450de3e92bb69fbcd4d6ff262fc49962c92796c466771b87b29c9cf"
 metafile = true
 
 [[files]]
