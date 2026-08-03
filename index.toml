@@ -1982,6 +1982,11 @@ hash = "1aa75105514780685caab9b945db2a2ea7c0594ced8c01e12f2a3e331f1af4e6"
 metafile = true
 
 [[files]]
+file = "mods/easy-villagers.pw.toml"
+hash = "b5bf5f040504b0e15201e23195f4bd12347c35684d5dc008a39afefb720a90f2"
+metafile = true
+
+[[files]]
 file = "mods/effortless-building.pw.toml"
 hash = "acca756841ee5e088eaec9474758e402247965f3adf6d7ccd612bb715aa836c9"
 metafile = true
@@ -2199,6 +2204,11 @@ metafile = true
 [[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
 hash = "7905c08f37d8ebde50a5330a7dd10029de6259b0cb8adbde1170d93ea20218a7"
+metafile = true
+
+[[files]]
+file = "mods/just-zoom.pw.toml"
+hash = "79d3a650d295b802aa787923c32fe093a49900c39f4425fd3a16f95e5d6e9c45"
 metafile = true
 
 [[files]]

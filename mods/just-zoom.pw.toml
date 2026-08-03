@@ -1,0 +1,23 @@
+name = "Just Zoom"
+filename = "justzoom_neoforge_2.1.0_MC_1.21.1.jar"
+# Client-only: Modrinth lists server_side = unsupported and it only adjusts the
+# client FOV. Hotkey to zoom, mouse wheel to change the zoom factor.
+#
+# Chosen over Ok Zoomer and WI Zoom for two concrete reasons. Its only
+# dependency is konkrete [1.9.0,) and we already ship Konkrete 1.9.9, so it adds
+# nothing new to the pack -- same author as our FancyMenu, Konkrete, Drippy
+# Loading Screen and Melody. And 2.1.0 is a stable release, where Ok Zoomer's
+# 1.21.1 line is still on 10.0.0-beta.
+#
+# neoforge [21.1.47,) and minecraft [1.21.1,); we are on 21.1.233.
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/iAiqcykM/versions/mnCUZfmm/justzoom_neoforge_2.1.0_MC_1.21.1.jar"
+hash-format = "sha512"
+hash = "6b4df108238ff54a4cee55517908fef96e2382458c9f13eac2443dab1148fa5538f33505a66f3ea24f646c9be7300e6c6185a077d709c85405cbe61c24e58f38"
+
+[update]
+[update.modrinth]
+mod-id = "iAiqcykM"
+version = "mnCUZfmm"
