@@ -25,3 +25,7 @@
 *.log
 crash-reports/
 logs/
+
+# Claude Code working notes -- repo documentation, not pack content.
+# Anchored, so it cannot match a mod-shipped CLAUDE.md under config/.
+/CLAUDE.md

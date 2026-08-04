@@ -27,3 +27,9 @@ config/paxi/datapacks/*.zip
 !config/paxi/datapacks/ExtraCreateRecipes.zip
 !config/paxi/datapacks/create waystones 1.21.zip
 !config/paxi/datapacks/thingsandmisc_crushedmagma_disable.zip
+
+# Claude Code working notes. Local only -- deliberately untracked.
+# Also listed in .packwizignore: a root file that is gitignored but still
+# indexed would be added to the tracked index.toml by `packwiz refresh` while
+# never reaching GitHub, so every client would 404 fetching it.
+/CLAUDE.md
