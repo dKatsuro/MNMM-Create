@@ -45,6 +45,7 @@ services:
       # airships can exceed the 60s limit and trigger a spurious crash.
       MAX_TICK_TIME: "-1"
       STOP_SERVER_ANNOUNCE_DELAY: "30"
+      PVP: "false"
 
       RCON_PASSWORD: ${RCON_PASSWORD}
     volumes:
