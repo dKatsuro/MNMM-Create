@@ -1832,6 +1832,11 @@ hash = "a4fe8274617f4eba50bfc27b17eb0b4cb97558cfab09d27f73d3f7a234db83f5"
 metafile = true
 
 [[files]]
+file = "mods/create-schematic-upload.pw.toml"
+hash = "874c348f3b2c81b131277162dc8a2bb898b8ea499353918f6aa1320a20ddc6b2"
+metafile = true
+
+[[files]]
 file = "mods/create-sophisticated-backpacks-compat.pw.toml"
 hash = "79d7cf09cdc88b8e64cb684be60efe938193ee13d8a64fc31e3ad1ae622bf4af"
 metafile = true

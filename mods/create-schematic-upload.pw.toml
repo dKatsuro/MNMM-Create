@@ -1,0 +1,26 @@
+name = "Create: Schematic Helper"
+filename = "createschematichelper-neoforge-mc1.21.1-2.1.0.jar"
+# Client-only. Everything in the jar is clientside: two mixins into screens
+# (SchematicTableScreenMixin, SchematicAndQuillHandlerMixin), an isometric
+# preview renderer, and upload/download handlers that talk to createmod.com
+# over HTTP from the client. No server content and no packets of its own --
+# getting a schematic into the world still goes through Create's own
+# SchematicSender, which the server already has.
+#
+# The Modrinth slug is create-schematic-upload but the mod renamed itself to
+# "Create: Schematic Helper" (modId createschematichelper); the metafile keeps
+# the slug name so packwiz update keeps resolving.
+#
+# create [0.5.1,) declared with side = CLIENT, neoforge [21,) and minecraft
+# [1.21.1,1.22). No upper bound on Create, so a Create bump is safe here.
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/vDsPXWBh/versions/oqEEkF7n/createschematichelper-neoforge-mc1.21.1-2.1.0.jar"
+hash-format = "sha512"
+hash = "0c1992874111350959ec5630942529a7080ea1824ff239d7f5584c4bf2414be761556c853ecd39be42ea11669a4698a671b87c2eec2813d6d187352f50d6d109"
+
+[update]
+[update.modrinth]
+mod-id = "vDsPXWBh"
+version = "oqEEkF7n"
