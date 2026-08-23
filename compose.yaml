@@ -7,7 +7,8 @@
 # This file is excluded from the pack via .packwizignore so it is never shipped
 # to client installs.
 #
-# Required .env values: MINECRAFT_SERVER_VERSION, TZ, CONFIG_PATH, RCON_PASSWORD
+# Required .env values: MINECRAFT_SERVER_VERSION, TZ, CONFIG_PATH, RCON_PASSWORD,
+#                       PROXY_NETWORK
 
 services:
   mnmm-create:
@@ -54,6 +55,9 @@ services:
       - "25565:25565"
     networks:
       - internal
+      # BlueMap's webserver on :8100 is deliberately NOT published to the host.
+      # Pangolin reaches it in-network as http://MNMM-Create:8100.
+      - proxy
     healthcheck:
       test: mc-health
       # First boot downloads 212 mods before the server accepts connections.
@@ -66,3 +70,9 @@ services:
 networks:
   internal:
     driver: bridge
+  # Pangolin's network, created outside this stack. BlueMap live player data is
+  # Server-Sent Events on /maps/<id>/live/players, so the proxy resource must not
+  # buffer responses and needs a generous read timeout, or player markers stall.
+  proxy:
+    external: true
+    name: proxy

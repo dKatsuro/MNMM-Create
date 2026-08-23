@@ -1427,6 +1427,16 @@ hash = "3b7f8c785fc9ec30a529c2ef7e0c55259c92e745a0165aa24a1c1ea54016d26d"
 metafile = true
 
 [[files]]
+file = "mods/bluemap-model-loaders.pw.toml"
+hash = "94c6b5f2c5393d9f05ce5c75666137b05fceaf431d4b13fb4c84bc72e1e71604"
+metafile = true
+
+[[files]]
+file = "mods/bluemap.pw.toml"
+hash = "1e2538a9f06b5c3c53eac5c027b02b301d2918305c25db635ca03e50bd4fddf3"
+metafile = true
+
+[[files]]
 file = "mods/blueprint.pw.toml"
 hash = "ead3aff0899e5bc61eb22fe0af86722b430f9e92990b3cd2720d5c2c1f66d023"
 metafile = true

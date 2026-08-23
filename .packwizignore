@@ -29,3 +29,9 @@ logs/
 # Claude Code working notes -- repo documentation, not pack content.
 # Anchored, so it cannot match a mod-shipped CLAUDE.md under config/.
 /CLAUDE.md
+
+# BlueMap server config and addon packs. BlueMap is side="server", so no client
+# install has any use for these. Managed on the VPS volume instead: git-tracked
+# for review, never indexed. Anchored, so it cannot match a mod-shipped
+# config/bluemap path.
+/config/bluemap/

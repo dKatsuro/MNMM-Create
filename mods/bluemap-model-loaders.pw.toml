@@ -1,0 +1,28 @@
+name = "BlueMapModelLoaders"
+filename = "bluemapmodelloaders-neoforge-0.2.2.jar"
+# Server-only: it does nothing except extend BlueMap, which is itself
+# side = "server". Teaches BlueMap's resource parser the non-vanilla model
+# loaders NeoForge provides (obj, composite, empty), which several Create
+# blocks use.
+#
+# Lives in mods/ rather than config/bluemap/packs/ purely because of the BlueMap
+# version. Upstream's matrix: >= 5.21 current, 5.14-5.20 -> 0.4.3,
+# 5.10-5.13 -> 0.3.3, and "BlueMap 5.7 - 5.9: install as a Forge/Fabric/NeoForge
+# mod" -> 0.2.2. We are capped at BlueMap 5.7, so 0.2.2 as a mod it is.
+# Pinned to the BlueMap version, not to Create -- if BlueMap ever moves, this
+# moves with it and probably relocates to the packs folder.
+#
+# Known shortfall, accepted: BlueMap-Create-Resource-Pack asks for
+# BlueMapModelLoaders >= 0.4.2 for the blocks it marks with (*) -- belts, water
+# wheels, mechanical mixer, mechanical arm, bogeys, blaze burner, fluid valve.
+# 0.2.2 is below that floor, so those stay wrong. The other ~21 block families
+# in that pack do not need this at all and render either way; this jar is here
+# for whatever partial coverage 0.2.2 gives and costs 52 KB.
+#
+# Not on Modrinth -- upstream GitHub release, so no [update] source.
+side = "server"
+
+[download]
+url = "https://github.com/Uiniel/BlueMapModelLoaders/releases/download/v0.2.2/bluemapmodelloaders-neoforge-0.2.2.jar"
+hash-format = "sha256"
+hash = "e0da5a620b02f5b82fbf77fa83813bb388c1b229fc00a3954047766ce54aacbe"
