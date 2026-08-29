@@ -1,0 +1,33 @@
+name = "Create: Quarry"
+filename = "create_quarry-1.0.1.jar"
+# Both sides. The scan/replace loop, drop and fluid transfer, and the Quarry
+# Stake linking all run server-side; the client half is only the GeckoLib
+# renderer. But side is not a free choice here: QuarryBlockEntity itself
+# implements software.bernie.geckolib.animatable.GeoBlockEntity, so the common
+# class graph binds GeckoLib on the server too.
+#
+# UNDECLARED DEPENDENCY -- neoforge.mods.toml lists only neoforge, minecraft
+# and create. It does NOT declare geckolib, and the jar does not bundle it via
+# Jar-in-Jar, yet it binds software/bernie/geckolib/* in both the client
+# renderer and the common block entity. GeckoLib 4.9.2 is already in this pack
+# as side="both", which is why it loads. Removing GeckoLib would break this mod
+# with a NoClassDefFoundError and nothing in either manifest would warn you.
+#
+# Create bound is [6.0.10,6.1.0) -- an exclusive upper bound, and the pack sits
+# on the exact floor at 6.0.10. Any Create 6.1 bump breaks this mod.
+# NeoForge bound is [21.1.233,) and the pack is on exactly 21.1.233, the floor.
+#
+# Config is registered as ModConfig.Type.COMMON, so it is config/create_quarry-
+# common.toml -- shipped by packwiz and read from config/, NOT world-scoped the
+# way create-server.toml is.
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gLTAirKi/versions/jRlM81Cx/create_quarry-1.0.1.jar"
+hash-format = "sha512"
+hash = "78d70fd4e0d8249f3712d1b250ab7fc40359808342f8da28b721066c52626410b2693ae791d70cdd7819c2a0d890d7a65d88fc6f184d4c16c69364abb660ce0a"
+
+[update]
+[update.modrinth]
+mod-id = "gLTAirKi"
+version = "jRlM81Cx"

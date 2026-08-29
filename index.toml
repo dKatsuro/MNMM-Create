@@ -309,6 +309,10 @@ file = "config/create_optical-server.toml"
 hash = "add0889affced3038f1b972c1ed52da67d295b82922e4f2bdcd5f0857e334b0f"
 
 [[files]]
+file = "config/create_quarry-common.toml"
+hash = "92dda81301cec77268c5ae892410eda682a037194db683f5e5ad182a842851a3"
+
+[[files]]
 file = "config/createaddition-common.toml"
 hash = "b6d04b9e596136af29c206695106bd9f67d36e44697ca10ad73dc3c02e32ed83"
 
@@ -1829,6 +1833,11 @@ metafile = true
 [[files]]
 file = "mods/create-propulsion-simulated.pw.toml"
 hash = "f82cdd570cb4f6bd9b87a6a30c5e5ecc23125dfcecc715d4950a17301de8c58a"
+metafile = true
+
+[[files]]
+file = "mods/create-quarry.pw.toml"
+hash = "a10572a667045a8f07c02c3c4c31a29e5957f4d322c1619d14cf98111d7255e4"
 metafile = true
 
 [[files]]
