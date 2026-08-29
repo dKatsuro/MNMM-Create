@@ -2646,6 +2646,11 @@ hash = "bbc114b209b4895ddff438afe7c504cec6e619717f71f9b1c7d309c4c9c5107d"
 metafile = true
 
 [[files]]
+file = "mods/torchmaster.pw.toml"
+hash = "23ea2c32834281723c63d45ffe42969172492d36309755a46bc47154c3014b3f"
+metafile = true
+
+[[files]]
 file = "mods/tradeworks.pw.toml"
 hash = "be1ac9fe5e8e36cf4f51f859fb31eb6c017d8031d09f5b15e922c8ee6691febd"
 metafile = true
