@@ -2135,6 +2135,11 @@ hash = "0cb531aca428ef783098fba4e27bfc567b9256dd18ffe1f67c04b40932a1aac3"
 metafile = true
 
 [[files]]
+file = "mods/functional-storage.pw.toml"
+hash = "1faf48b7c3887b3b9ccae6999c9ebb36e9424009b8d3be5c4275aa7c0f139bcd"
+metafile = true
+
+[[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "4014301633c64517bda716a78f190c119eb36499bec45ac8b6254cbfe8489ff7"
 metafile = true
@@ -2642,6 +2647,11 @@ metafile = true
 [[files]]
 file = "mods/terrablender-neoforge.pw.toml"
 hash = "d77e4dc337b6090358c1ef01b0f99a8357e5279443e0e23e511de1be865c01c9"
+metafile = true
+
+[[files]]
+file = "mods/titanium.pw.toml"
+hash = "e697bd3a78edee29ae0bdfbf3cd4261dcbe4517ffb5ef84851e4cc0abcbda7e1"
 metafile = true
 
 [[files]]
