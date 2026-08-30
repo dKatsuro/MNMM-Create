@@ -97,6 +97,10 @@ file = "config/bwncr-common.toml"
 hash = "a8d9256245e6a4a9ef9cd19db22432e7dccf447fa7ba803a70ebd23624e7d21b"
 
 [[files]]
+file = "config/carryon-common.toml"
+hash = "21e067fc2c21d0504c741d5f193cc75432e6031f95e7e2b6ac5fc30914583348"
+
+[[files]]
 file = "config/chat_heads.json5"
 hash = "e198750061411cf7fca624e38b894ca104ca2cf2c2940da0409ce4240dcc2503"
 
