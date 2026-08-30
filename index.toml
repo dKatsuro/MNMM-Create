@@ -1680,6 +1680,11 @@ hash = "8f067d4847ec4f5fd581c6323f8a069f0d273422dba347f0cfcb8b2f62a99238"
 metafile = true
 
 [[files]]
+file = "mods/create-copycats-additions.pw.toml"
+hash = "b4149d078b1ca3097f5be9d84c9d5b203ccf560324aea0b4dade4f020bfc1620"
+metafile = true
+
+[[files]]
 file = "mods/create-deco.pw.toml"
 hash = "489707968aec5f58da126ede679528c9adbf747472beab47c5f45da14f85947b"
 metafile = true
