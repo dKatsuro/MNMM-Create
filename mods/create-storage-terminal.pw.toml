@@ -5,7 +5,7 @@ filename = "create_storage_terminal-neoforge-1.21.1-0.1.1.jar"
 #
 # Tightest floor in the pack: create [6.0.10,6.1.0) against our Create 6.0.10
 # exactly, so ANY Create downgrade hard-fails this. Also neoforge [21.1.222,)
-# against our 21.1.233.
+# against our 21.1.234.
 #
 # New and small -- 0.1.1 is the only published build. Overlaps in purpose with
 # Create Contraption Terminals, but they are different mods by different

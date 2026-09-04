@@ -1,0 +1,27 @@
+name = "JourneyMap  Web Map"
+filename = "journeymap-webmap-neoforge-1.21.4-1.0.11.jar"
+# Client only. This starts a small embedded Jetty server inside the game client
+# and serves the *client's own* map to a browser: every route (Tiles, Polygons,
+# Waypoints, Skin, Data) reads local JourneyMap data, its single mixin
+# (NativeImageAccessor) is declared client-only, and it registers itself through
+# META-INF/services/journeymap.api.services.WebMapService -- a client-side
+# JourneyMap API service. On a dedicated server it would bind a web server with
+# no map data behind it. It is also a 6.5 MB jar, most of it shaded Jetty and
+# Kotlin, so there is no reason to push it to the server.
+#
+# The filename says 1.21.4 but this is a multi-version build -- Modrinth lists
+# 1.21.1, 1.21.4, 1.21.5 and 1.21.8, and the manifest asks only for minecraft
+# [1.21,) and neoforge [21.0.0-beta,). Its journeymap range is a three-clause
+# "[1.21.1-6.0.0,),[1.21.4-6.0.0-beta.45,),[1.21.5-6.0.0-beta.45,)"; our
+# 1.21.1-6.0.7 satisfies the first clause.
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/YaZ1fUTg/versions/Z3sPsjp0/journeymap-webmap-neoforge-1.21.4-1.0.11.jar"
+hash-format = "sha512"
+hash = "e3663617b9f2616663bdef04bdcb9395b5ddf4376b218bbcf3d8f93a95a57cf1c7bbdbcf52545c76be1c3875940d551107ba586f4e78a6866458df3bd2db6f37"
+
+[update]
+[update.modrinth]
+mod-id = "YaZ1fUTg"
+version = "Z3sPsjp0"

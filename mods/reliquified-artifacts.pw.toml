@@ -1,0 +1,22 @@
+name = "Reliquified Artifacts"
+filename = "reliquified_artifacts-1.21.1-1.0.8.jar"
+# Both sides. Compat addon that re-implements Artifacts' items on top of Relics'
+# ability and levelling system, which is server-authoritative.
+#
+# This mod carries the tightest dependency in the pack: artifacts = "[13.2.3]",
+# an exact single-version range. That is the reason mods/artifacts.pw.toml is
+# pinned to 13.2.3 instead of the newest 13.2.5 -- read that file before touching
+# either. Also relics [0.12.3,) (we ship 0.12.8), octolib [0.6,) (0.6.2), curios
+# [9.3.1+1.21,) (9.5.1), neoforge [21.0.140-beta,) and minecraft [1.21,1.22).
+# Ships reliquified_artifacts.mixins.json.
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GnU07giL/versions/x2qoJkgq/reliquified_artifacts-1.21.1-1.0.8.jar"
+hash-format = "sha512"
+hash = "2885b9f4c262f10c9500d9525cd4f82174a462348c4b946627d21a97303469de302c4a487066313a4904d3abb46a7a3433e0deb9855b6d04112a967b1ce947a1"
+
+[update]
+[update.modrinth]
+mod-id = "GnU07giL"
+version = "x2qoJkgq"

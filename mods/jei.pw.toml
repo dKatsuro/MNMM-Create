@@ -19,7 +19,7 @@ filename = "jei-1.21.1-neoforge-19.39.0.372.jar"
 # see below.
 #
 # PINNED -- do not run `packwiz update jei`. Every JEI build from 19.42.0.379
-# onward requires neoforge [21.1.238,) and this pack is on 21.1.233, so they
+# onward requires neoforge [21.1.238,) and this pack is on 21.1.234, so they
 # hard-fail at load. 19.39.0.372 is the newest build still on [21.0.118-beta,).
 # Bumping JEI therefore requires bumping pack.toml's neoforge version first.
 #

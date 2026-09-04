@@ -3,7 +3,7 @@ filename = "easy-villagers-neoforge-1.21.1-1.1.42.jar"
 # Both sides: every manifest dependency is side = "BOTH", and picking villagers
 # up, trading with them and breeding them are all server-side operations.
 #
-# neoforge [21.0.161,) -- we are on 21.1.233.
+# neoforge [21.0.161,) -- we are on 21.1.234.
 # minecraft [1.21,1.21.1] -- the upper bound is INCLUSIVE at 1.21.1, so a bump
 # to 1.21.2 or later hard-fails this mod.
 #

@@ -2,7 +2,7 @@ name = "Comforts"
 filename = "comforts-neoforge-9.0.5+1.21.1.jar"
 # Both sides: sleeping is resolved server-side, so the sleeping bag and hammock
 # blocks have to exist on the server. Manifest declares only neoforge
-# [21.0.143,) and minecraft [1.21,1.22); we are on 21.1.233.
+# [21.0.143,) and minecraft [1.21,1.22); we are on 21.1.234.
 #
 # Chosen over the mod literally titled "Sleeping Bags" (Modrinth slug
 # sleeping-bags), which only adds a bag that passes the night without setting

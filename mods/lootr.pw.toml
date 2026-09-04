@@ -1,0 +1,23 @@
+name = "Lootr"
+filename = "lootr-neoforge-1.21.1-1.11.38.124.jar"
+# Both sides, and it has to be. Lootr swaps vanilla loot containers for its own
+# blocks and block entities that roll a separate inventory per player; that state
+# and its rolling live on the server (lootr/common/api, lootr/neoforge/network),
+# while the client needs the block/item registrations, renderers and packet
+# handlers to draw and open them. A client without the jar cannot open a Lootr
+# chest at all.
+#
+# neoforge [21.1.195,) and minecraft 1.21.1; we are on 21.1.234. Three mixin
+# configs, one of which (lootr-neoforge-digsite_workshop.mixins.json) is gated by
+# requiredMods = ["digsite_workshop"] and stays inert -- that mod is not here.
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EltpO5cN/versions/Trh49IZt/lootr-neoforge-1.21.1-1.11.38.124.jar"
+hash-format = "sha512"
+hash = "b425225f416e1810146eae2cddaf178042756e21a2401f33704dcde8409b16db21b87f81121aae962d62b9bd94d227a8b393da352b04fdbcbc5ef575dce13c86"
+
+[update]
+[update.modrinth]
+mod-id = "EltpO5cN"
+version = "Trh49IZt"

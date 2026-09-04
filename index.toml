@@ -1415,6 +1415,11 @@ hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
 metafile = true
 
 [[files]]
+file = "mods/artifacts.pw.toml"
+hash = "dd00fbf0bb8df5b6efabc194ca3c7f1ee679c90343ea2b2f8fcf54b9704d78f4"
+metafile = true
+
+[[files]]
 file = "mods/bad-wither-no-cookie.pw.toml"
 hash = "91c5f289f65efc2e79d2f8592bb5e8fc3784e6b90ebbc0f036c57b4cbbf06c75"
 metafile = true
@@ -1541,7 +1546,7 @@ metafile = true
 
 [[files]]
 file = "mods/comforts.pw.toml"
-hash = "150042398f374216ed8abca6898547b6f347fae10f3fc894244b212985350328"
+hash = "7910cd97fb140d2b98e5b892164f2bcb9f369691b195f34f6564bfc6861536a2"
 metafile = true
 
 [[files]]
@@ -1626,7 +1631,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-bits-n-bobs.pw.toml"
-hash = "0f67083a39e4b9aa80b1830257086f16734091f9ecb24e64dd208c19be2c4923"
+hash = "748a415657adf9345c01d7d3ab4c313273738e62ef47c604fb35cc1ccd284040"
 metafile = true
 
 [[files]]
@@ -1656,7 +1661,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-cobblestone.pw.toml"
-hash = "c044091431c2620bcd439002268c3e284a00ead4a5a83e2dbe5005ca637a0616"
+hash = "550a090e9bc93928acc44c7d92e0a235a375b17cdebc71fb2c84e03eed804878"
 metafile = true
 
 [[files]]
@@ -1681,12 +1686,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-copycats-additions.pw.toml"
-hash = "b4149d078b1ca3097f5be9d84c9d5b203ccf560324aea0b4dade4f020bfc1620"
+hash = "e450ad0503c3aad377a25ac0353eda82e3bce72eca157f3a324a843fc74f5b12"
 metafile = true
 
 [[files]]
 file = "mods/create-deco.pw.toml"
-hash = "489707968aec5f58da126ede679528c9adbf747472beab47c5f45da14f85947b"
+hash = "867b78fdbb9a7d20b4194d9c2948b819da379bc1da3fd3758c6ebfa0f7758ff5"
 metafile = true
 
 [[files]]
@@ -1716,7 +1721,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-dynamic-lights.pw.toml"
-hash = "a1ebd460659de7fd8e3b2deafcbb76718fcaf8c42ddd916cc20d9295e097d16d"
+hash = "381a97a416a5771ebd2f924a7a7011779727949e30d243534a002084cb919208"
 metafile = true
 
 [[files]]
@@ -1846,7 +1851,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-quarry.pw.toml"
-hash = "a10572a667045a8f07c02c3c4c31a29e5957f4d322c1619d14cf98111d7255e4"
+hash = "dd6de532fb050f07800622ae78a596afc1fb03579d48972974f4f5d46dba2ae0"
 metafile = true
 
 [[files]]
@@ -1886,7 +1891,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-storage-terminal.pw.toml"
-hash = "9758cc119ca081a111590cb808704b884999588beacf0e8d942d3b2059431dce"
+hash = "68c02c455d8a3bd3c5756707acf2f4ee4a4df766170957642fc735ff8fec547c"
 metafile = true
 
 [[files]]
@@ -1960,6 +1965,11 @@ hash = "ffbf8c624cd4d3eefba4c714b932fb9201b202b2d785657ee61af5a6c04b7da7"
 metafile = true
 
 [[files]]
+file = "mods/createlights-controls.pw.toml"
+hash = "071694487a63d97880d620fb1a85082574e5f1dab6b5706c6068526d6093dc3f"
+metafile = true
+
+[[files]]
 file = "mods/cupboard.pw.toml"
 hash = "c7c920fbdf1415fff28d6b7aa0a2585be1df114ce03edff75ad2b78d359823ad"
 metafile = true
@@ -1971,12 +1981,17 @@ metafile = true
 
 [[files]]
 file = "mods/custom-window-title.pw.toml"
-hash = "6d93ff3a644efd74b97592f348b26fa969762fa6d8c87aac68b4541035755dc8"
+hash = "e414e51357b9e7ae1db68b1a2a6983f276755f397c82b68c2893b0d310128313"
 metafile = true
 
 [[files]]
 file = "mods/cut-through.pw.toml"
 hash = "b2abfcd26485e785f6836f6b0d3844a5ba00a97f8c0689aa44c44d3a072ca43a"
+metafile = true
+
+[[files]]
+file = "mods/cyberish-lights.pw.toml"
+hash = "42e8a77494e02a09e935d2b313a94446eacc7a30d7cd53b4f7fd2ae09f406a8c"
 metafile = true
 
 [[files]]
@@ -2005,6 +2020,11 @@ hash = "eea753771cfbd43beb266fefdb1953f718f6aee6c78f10384c8db7150bb37d84"
 metafile = true
 
 [[files]]
+file = "mods/dye-depot.pw.toml"
+hash = "27e68eea3ace9fcd58dd58cbc956107b258245ca4d5598817221c3b98f86ad87"
+metafile = true
+
+[[files]]
 file = "mods/e4mc.pw.toml"
 hash = "e0124ba6288592345e2a8c40df340ceecd749b6300bf00d1506ef2a0f27c7cd4"
 metafile = true
@@ -2021,7 +2041,7 @@ metafile = true
 
 [[files]]
 file = "mods/easy-villagers.pw.toml"
-hash = "b5bf5f040504b0e15201e23195f4bd12347c35684d5dc008a39afefb720a90f2"
+hash = "e5ba57c98fa37b6c12e6ea6ccda722f950e1f2c5ee993df4cc72585884428fdc"
 metafile = true
 
 [[files]]
@@ -2231,7 +2251,22 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "82d0ae3d9f973e8a4fc1f8487a334432d9f07f5302b1dc1dd7879f2f81a690c0"
+hash = "6d335f37a007aee8cdee591b9b9c1676ed8aafded8f41fcfa63bd30f6b1e85f0"
+metafile = true
+
+[[files]]
+file = "mods/journeymap-teams.pw.toml"
+hash = "51b4705a4ee384742b822d1ad549e2e69c3dcc2551aa704ad0bb3680943b9525"
+metafile = true
+
+[[files]]
+file = "mods/journeymap-web-map.pw.toml"
+hash = "1232bc730d94ce3ca16fe40ddf863bba2ae6cc10aacd8c2f459bce36fdfb65e8"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "6389f382762eecdf6a87351afbb28603f6b3ecd01f3cc3a15424110452228512"
 metafile = true
 
 [[files]]
@@ -2251,7 +2286,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-zoom.pw.toml"
-hash = "79d3a650d295b802aa787923c32fe093a49900c39f4425fd3a16f95e5d6e9c45"
+hash = "1606c3e87004b008c4b9468850b7877fc5aaef4bdc25f6f7759ff0712371e63e"
 metafile = true
 
 [[files]]
@@ -2291,7 +2326,7 @@ metafile = true
 
 [[files]]
 file = "mods/llo.pw.toml"
-hash = "d40547ae76ae4dc411f18ca64bb5e77cebe76ebf249ba49499b58c1eff6492cb"
+hash = "0c9b7a7316e64476041bc740140d73c937ec74cc8b978446fae4bf1fd01b9d40"
 metafile = true
 
 [[files]]
@@ -2302,6 +2337,11 @@ metafile = true
 [[files]]
 file = "mods/loot-integrations.pw.toml"
 hash = "543b8a8ff5796648146f3102dea686e806f793052d329d0fa3efee8194d4df52"
+metafile = true
+
+[[files]]
+file = "mods/lootr.pw.toml"
+hash = "c6043e1a2e355e6e3b99a8eda4d9d708bbd187873791bfec230cb60c0371c87e"
 metafile = true
 
 [[files]]
@@ -2367,6 +2407,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "6d3ff3b7bbcc97fa06bdddcf2b3b7646168497ba6d7104bdea376f1bc65f9a93"
+metafile = true
+
+[[files]]
+file = "mods/more-lights.pw.toml"
+hash = "b2263777a1c309794effb6f710b2df22b793f98ddc0d061a139895a455067ee6"
 metafile = true
 
 [[files]]
@@ -2515,6 +2560,16 @@ hash = "1e3ab598f4d37d0599ab62b731b072673e8bda4c68f52c294a1f5b3802decdda"
 metafile = true
 
 [[files]]
+file = "mods/relics-mod.pw.toml"
+hash = "29e6f713903ad6dccd1c6a517dfd5112a2e40bbf206ed78c6810df8f1a20615c"
+metafile = true
+
+[[files]]
+file = "mods/reliquified-artifacts.pw.toml"
+hash = "4585d012467d857eab260a7ca907795e0b1a50db9ce2783762c6d18d88402689"
+metafile = true
+
+[[files]]
 file = "mods/resource-pack-overrides.pw.toml"
 hash = "b8101dca20d054277d99e75b43dd8db44dea64a761d2ab69fdda9f6d59d9e6f1"
 metafile = true
@@ -2542,6 +2597,11 @@ metafile = true
 [[files]]
 file = "mods/server-browser.pw.toml"
 hash = "e354ae7f3c7c1955b8670a1d95c80ab14ac2b3f8a5ca2fa6d2e8bd9cf290a67f"
+metafile = true
+
+[[files]]
+file = "mods/shatterbyte-lib.pw.toml"
+hash = "b895356b154a9734a30c1c00d21456a57808bce6e7ba7904e60b1f77d341e394"
 metafile = true
 
 [[files]]
@@ -2681,7 +2741,7 @@ metafile = true
 
 [[files]]
 file = "mods/trash-cans.pw.toml"
-hash = "d6bc3e480450de3e92bb69fbcd4d6ff262fc49962c92796c466771b87b29c9cf"
+hash = "9bdf55bf0ca1f8a151876891400242cc84f6f1b5defae50b0736f7aa9c7fd48a"
 metafile = true
 
 [[files]]

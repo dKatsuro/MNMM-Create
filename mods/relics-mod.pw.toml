@@ -1,0 +1,22 @@
+name = "Relics"
+filename = "relics-1.21.1-0.12.8.jar"
+# Both sides. Relics is a Curios-slot equipment mod: each relic carries
+# server-authoritative ability state (levelling, XP, cast cooldowns) that is
+# synced to the client for rendering and tooltips, so the jar belongs on both.
+#
+# curios [9.3.1+1.21.1,) -- we ship 9.5.1+1.21.1 -- and octolib [0.5.0.1,), the
+# shared OctoStudios library added alongside as shatterbyte-lib.pw.toml (Modrinth
+# titles that project "ShatterLib | OctoLib"; the modId is octolib). Also
+# neoforge [21.0.140-beta,) and minecraft [1.21,1.22); we are on 21.1.234.
+# Ships relics.mixins.json.
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OCJRPujW/versions/WKEe9sPL/relics-1.21.1-0.12.8.jar"
+hash-format = "sha512"
+hash = "4490d5d1f7ae24fe69135151b5730018ec7f2e64970349d590564c70d8d67f94d805c5680866086b4c8ba9afb4999b9c0b97b869b6fb24a90808e9ca73974b7f"
+
+[update]
+[update.modrinth]
+mod-id = "OCJRPujW"
+version = "WKEe9sPL"

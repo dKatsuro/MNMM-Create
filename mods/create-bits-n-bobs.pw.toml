@@ -1,5 +1,17 @@
 name = "Create: Bits 'n' Bobs"
 filename = "bits_n_bobs-0.0.44.jar"
+# Both sides -- decorative and mechanical Create additions, all registry content,
+# and it ships bits_n_bobs.mixins.json.
+#
+# Already in the pack before it was requested again; left at 0.0.44 on purpose.
+# neoforge [21.1.186,) and minecraft [1.21.1]; 0.0.44 declares no `create`
+# dependency at all.
+#
+# NOT updated to the current 2.2.9. That line moved the goalposts: it declares
+# create [6.0.10,) plus two new hard dependencies this pack does not have --
+# azimuth [1.4.6,) and struts [1.0.0,) -- and marks tfmg incompatible unless it
+# is 1.2.2c or newer than 1.2.2. Bumping it is a multi-mod change, not a
+# `packwiz update`.
 side = "both"
 
 [download]

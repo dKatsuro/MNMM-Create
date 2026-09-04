@@ -23,7 +23,7 @@ filename = "create-dyn-light-forge-1.21.1-2.0.1.jar"
 # client config enableLambDynamicLight is on is a NoClassDefFoundError path.
 # Keep the two together.
 #
-# create [6.0.0,) and neoforge [21.1.129,); we are on 6.0.10 / 21.1.233.
+# create [6.0.0,) and neoforge [21.1.129,); we are on 6.0.10 / 21.1.234.
 # Published as beta -- 2.0.1 is the current 1.21.1 build. Ships no mixins.
 side = "both"
 

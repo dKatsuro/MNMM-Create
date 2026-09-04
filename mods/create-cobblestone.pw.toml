@@ -4,7 +4,7 @@ filename = "createcobblestone-1.4.12+neoforge-1.21.1-144.jar"
 # required, and the generator block runs its SU consumption and item output
 # server-side while the client needs the block and its renderer.
 #
-# neoforge [21,) -- we are on 21.1.233.
+# neoforge [21,) -- we are on 21.1.234.
 # minecraft [1.21.1] -- a single exact version, so any MC bump hard-fails this.
 # create [6.0.0,6.1) -- EXCLUSIVE upper bound. We ship Create 6.0.10, so a bump
 # to Create 6.1 breaks this mod; check for an update before bumping Create.

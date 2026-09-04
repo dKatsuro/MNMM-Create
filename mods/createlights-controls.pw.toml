@@ -1,0 +1,22 @@
+name = "Create: Lights & Controls"
+filename = "create-lights-and-controls-1.21.1-2.2.1.jar"
+# Both sides -- it registers blocks (coloured lamps, caged signal lights, flush
+# inlaid lights, an animated Industrial Gear Switch and a four-channel Quad Lever
+# Panel) that talk to Create's Redstone Link network, so the server needs the
+# registry entries and the link frequencies.
+#
+# create [0.5,) ordered AFTER, minecraft [1.21.1], and neoforge [21.1.234,).
+# That NeoForge floor is why pack.toml and compose.yaml moved off 21.1.233 --
+# 2.2.1 is the only 1.21.1 build published, so there is no older jar to fall back
+# to, and on 21.1.233 it hard-fails at load. Ships no mixins.
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pX72TnVK/versions/z4HjcNCx/create-lights-and-controls-1.21.1-2.2.1.jar"
+hash-format = "sha512"
+hash = "2447fe03571c98036dd102ba3f0b470baf4e58a8f5db25ac9c54959b581add0239b723fea9eef7a5c7ee1ced93aa862710b1f38afcea8d6a860481ce919ef117"
+
+[update]
+[update.modrinth]
+mod-id = "pX72TnVK"
+version = "z4HjcNCx"

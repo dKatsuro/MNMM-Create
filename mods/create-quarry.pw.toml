@@ -15,7 +15,7 @@ filename = "create_quarry-1.0.1.jar"
 #
 # Create bound is [6.0.10,6.1.0) -- an exclusive upper bound, and the pack sits
 # on the exact floor at 6.0.10. Any Create 6.1 bump breaks this mod.
-# NeoForge bound is [21.1.233,) and the pack is on exactly 21.1.233, the floor.
+# NeoForge bound is [21.1.233,); the pack is on 21.1.234, one above the floor.
 #
 # Config is registered as ModConfig.Type.COMMON, so it is config/create_quarry-
 # common.toml -- shipped by packwiz and read from config/, NOT world-scoped the

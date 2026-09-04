@@ -3,7 +3,7 @@ filename = "CustomWindowTitle-1.21.4+v1.4.1.jar"
 # Client-only; both its dependencies are declared side = "CLIENT".
 # The "1.21.4" in the filename is just the build's nominal target -- this jar
 # declares game_versions 1.21 through 1.21.5 and a neoforge range of
-# [21.0.0-beta,), so it covers our 1.21.1 / 21.1.233.
+# [21.0.0-beta,), so it covers our 1.21.1 / 21.1.234.
 # Configured by config/customwindowtitle-client.toml.
 side = "client"
 

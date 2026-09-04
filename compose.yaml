@@ -24,7 +24,7 @@ services:
       # --- loader: must match pack.toml exactly ---
       TYPE: "NEOFORGE"
       VERSION: "1.21.1"
-      NEOFORGE_VERSION: "21.1.233"
+      NEOFORGE_VERSION: "21.1.234"
 
       # --- the modpack ---
       PACKWIZ_URL: "https://raw.githubusercontent.com/dKatsuro/MNMM-Create/main/pack.toml"

@@ -15,7 +15,7 @@ filename = "trashcans-1.0.18c-neoforge-mc1.21.jar"
 #                                               to 1.2 will hard-fail this mod.
 #   supermartijn642configlib [1.1.6,)        -- we ship 1.1.8.
 #
-# neoforge [21.0.78-beta,) and minecraft [1.21,1.21.2); we are on 21.1.233 / 1.21.1.
+# neoforge [21.0.78-beta,) and minecraft [1.21,1.21.2); we are on 21.1.234 / 1.21.1.
 #
 # Licensed "All rights reserved" in the manifest -- fine to ship via packwiz,
 # which links to the author's own Modrinth CDN rather than redistributing.

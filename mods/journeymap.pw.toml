@@ -1,0 +1,28 @@
+name = "JourneyMap"
+filename = "journeymap-neoforge-1.21.1-6.0.7.jar"
+# Both sides. The map is drawn client-side, but the server half is real and is
+# why this is not client-only: journeymap.common.config.NeoForgeConfig$Server
+# together with ServerEventHandler, ServerWaypointHandler and the
+# ServerAdminRequestPropPacket / ServerAdminSavePropPacket pair let the server
+# force map options on connected clients (cave maps, radar, surface mapping) and
+# back server-synced waypoints via ServerWaypointBackend. journeymap.mixins.json
+# also loads two non-client mixins (server.ChunkMapAccessor,
+# server.ServerChunkCacheAccessor). And journeymap.api.server.ServerAPI is what
+# JourneyMap Teams' server plugin binds to -- drop this from the server and that
+# mod has nothing to integrate with.
+#
+# The commonnetworking [1.0.16,) dependency is satisfied inside the jar:
+# META-INF/jarjar ships common-networking-neoforge-1.0.21-1.21.1 alongside
+# journeymap-api-neoforge-2.0.0-1.21.1 and pngj, so no separate mod is needed.
+# The manifest's neoforge bound is a nominal [1.0.0,).
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lfHFW1mp/versions/IAVJBO0C/journeymap-neoforge-1.21.1-6.0.7.jar"
+hash-format = "sha512"
+hash = "5e79ec5aaf06329513e9b4537d8ef91a9d91ab3091fa475df4ba15bbd5907192c100f7870ae705dfc31f3ea7e82b8e98173ffc04dda9c292eeaa816bd33076fa"
+
+[update]
+[update.modrinth]
+mod-id = "lfHFW1mp"
+version = "IAVJBO0C"
