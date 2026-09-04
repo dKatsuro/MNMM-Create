@@ -1,5 +1,19 @@
 name = "Create Encased"
 filename = "Create Encased-1.21.1-1.9.0-ht2.jar"
+# Both sides -- encased shaft, cogwheel and pipe variants for every Create casing.
+# Registry content, so the server needs it.
+#
+# The modId is `createcasing`, not `create-encased`. Worth writing down, because
+# that is the id other mods declare against: Create: Bits 'n' Bobs 2.2.9 keys two
+# compat mixins off it, and Create: Remixed Casings requires it outright.
+#
+# create [6.0.10,) ordered AFTER -- we sit on that floor -- plus neoforge [21,)
+# and minecraft [1.21,). Optional kubejs [2101,) (absent here) and sliceanddice
+# [4.3.0,) (present at 4.3.2, so that path is live). Ships an access transformer
+# and createcasing.mixins.json.
+#
+# 1.9.0-ht3 is published; the -ht line is iglee42's continuation of the original
+# mod. Nothing in the pack requires the bump, so we stay on ht2.
 side = "both"
 
 [download]

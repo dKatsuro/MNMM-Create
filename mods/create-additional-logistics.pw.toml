@@ -1,0 +1,35 @@
+name = "Create: Additional Logistics"
+filename = "createadditionallogistics-1.21.1-1.4.5.jar"
+# Both sides. Roughly 160 blocks -- flexible shafts in every dye and encasing
+# combination, lazy cogwheels and shafts, seats, package_accelerator,
+# package_editor, network_monitor, cash_register -- plus regex support in Create's
+# logistics filters. Registry content and server-side filter logic alike.
+#
+# create [6.0.7,6.1.0) -- an EXCLUSIVE upper bound. This is the third mod pinning
+# the pack below Create 6.1.0, alongside create-quarry and create-storage-terminal
+# (both [6.0.10,6.1.0)); we are on 6.0.10. Also neoforge [21.1.209,) and minecraft
+# [1.21.1].
+#
+# Added so Bits 'n' Bobs' compat.cogwheel_material.createadditionallogistics
+# mixins (CogwheelMaterialVisualMixin, and the client PackageAcceleratorVisualMixin)
+# load instead of sitting gated off by BnbMixinPlugin.
+#
+# Ships an access transformer and 13 common + 10 client mixins into Create's
+# logistics stack: FactoryPanelBehaviour, StockTickerInteractionHandler,
+# PackagerRenderer, PackagePortScreen, TableClothBlockEntity, Train, SeatBlock.
+# That last one overlaps in subject with Bits 'n' Bobs' chair.ContraptionMixin --
+# seats on contraptions are the thing to check first if either misbehaves.
+#
+# It also adds its own weathered_iron_encased_* family, as does Bits 'n' Bobs.
+# Different namespaces, so no registry clash; just two similar sets in JEI.
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CZaz7aje/versions/soesZiME/createadditionallogistics-1.21.1-1.4.5.jar"
+hash-format = "sha512"
+hash = "0223a647558844c2a8c02ce63c78abade83f63013dbd4e09a5edbdb6e05a16f2c504f7328a113e5dca088cc112dc59f102f08e839ed1ebc5d9ed40a83481cb8a"
+
+[update]
+[update.modrinth]
+mod-id = "CZaz7aje"
+version = "soesZiME"

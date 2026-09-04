@@ -1,0 +1,32 @@
+name = "JourneyPAC"
+filename = "JourneyPAC-neoforge-1.21-1.1.7.jar"
+# Client only. It is a JourneyMap client plugin (@JourneyMapPlugin / IClientPlugin)
+# that draws OPAC claims as PolygonOverlays and adds a fullscreen claim/unclaim
+# mode; every class it touches is client-side. Its own manifest declares both
+# journeymap and openpartiesandclaims with side="CLIENT", and Modrinth marks it
+# server_side="unsupported". The server needs nothing -- OPAC already syncs claim
+# data to the client, which is what this reads.
+#
+# Why it is here: OPAC ships no map rendering of its own. The claim overlay lives
+# in Xaero's Minimap/World Map (xaero.common.mods.pac.highlight.ClaimsHighlighter),
+# so JourneyMap showed no claims at all. OPAC's jar contains zero references to
+# journeymap and JourneyMap contains none to OPAC; this jar is the only bridge.
+#
+# Version note: 1.1.7 is from 2025-05 and predates JourneyMap 6.x, but it binds
+# to the journeymap-api-v2 surface (journeymap.api.v2.client.*), which JourneyMap
+# 1.21.1-6.0.7 still ships intact via META-INF/jarjar/journeymap-api-neoforge-
+# 2.0.0-1.21.1.jar -- all 28 API classes it references resolve, as do all 8
+# xaero.pac.*.api classes against OPAC 0.29.3. journeymap and
+# openpartiesandclaims are both versionRange="*", neoforge [21.0.83,), and it
+# sets displayTest="IGNORE_ALL_VERSION" so it will not trip the server handshake.
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/UUErFmkX/versions/Q22HXCFT/JourneyPAC-neoforge-1.21-1.1.7.jar"
+hash-format = "sha512"
+hash = "367930b9fc3eaf78f78bb215524521905617e35d6c705e4b48153ae6eb8d08943f5c6398ebf5fa52025609d7cb0f607722b64deac0c99a55fc7854c67f06d82e"
+
+[update]
+[update.modrinth]
+mod-id = "UUErFmkX"
+version = "Q22HXCFT"

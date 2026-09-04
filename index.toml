@@ -1032,6 +1032,10 @@ hash = "9335cd2afc721011e9b39bf73b6b89f25a275a6d2f9b5a2eda47a14ff5faf57e"
 metafile = true
 
 [[files]]
+file = "config/paxi/datapacks/create_lac_uninvert_redstone_link.zip"
+hash = "d104ff22f10747fbbad9d23ad714205309843819c433776450c424a4997491a9"
+
+[[files]]
 file = "config/paxi/datapacks/thingsandmisc_crushedmagma_disable.zip"
 hash = "dfe4e52403bbdca519b919f064f4b5ab96cc8744cb51f0c60fdaeaa1ec7f2d09"
 
@@ -1420,6 +1424,11 @@ hash = "dd00fbf0bb8df5b6efabc194ca3c7f1ee679c90343ea2b2f8fcf54b9704d78f4"
 metafile = true
 
 [[files]]
+file = "mods/azimuth-api.pw.toml"
+hash = "88aa9640d3c0a60651bd264db928413b40f8d70c127a55cb867fdc251165c422"
+metafile = true
+
+[[files]]
 file = "mods/bad-wither-no-cookie.pw.toml"
 hash = "91c5f289f65efc2e79d2f8592bb5e8fc3784e6b90ebbc0f036c57b4cbbf06c75"
 metafile = true
@@ -1605,6 +1614,11 @@ hash = "31411fced67d5b743f6cd1ce2be55e4bce428de8df2fe38c6a39097099da5e4f"
 metafile = true
 
 [[files]]
+file = "mods/create-additional-logistics.pw.toml"
+hash = "663543446c254d87203da6e08f59bea8dca2c632a8b3f8951a7a3c976171ef61"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-climbable-ropes.pw.toml"
 hash = "db2ec960ce42b3d381003c82cff71e68a7c55c68117c3bf43ad2418111260065"
 metafile = true
@@ -1631,7 +1645,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-bits-n-bobs.pw.toml"
-hash = "748a415657adf9345c01d7d3ab4c313273738e62ef47c604fb35cc1ccd284040"
+hash = "e0bfc212114e06ce80ef80fa0965d210cca53103ff5f58aebb29f43e1c0f2654"
 metafile = true
 
 [[files]]
@@ -1726,7 +1740,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "4f3a481879dab177f7097e5c6102d37d3ee54f71ae9c3d8f16c8fd8a5b43ac4c"
+hash = "ba557948687b96ed87d6b6909546e75ace314ede63661c6c7187bc8b011e2301"
 metafile = true
 
 [[files]]
@@ -2020,8 +2034,13 @@ hash = "eea753771cfbd43beb266fefdb1953f718f6aee6c78f10384c8db7150bb37d84"
 metafile = true
 
 [[files]]
-file = "mods/dye-depot.pw.toml"
-hash = "27e68eea3ace9fcd58dd58cbc956107b258245ca4d5598817221c3b98f86ad87"
+file = "mods/dyenamics.pw.toml"
+hash = "a575a412380dcf2ad1822c23917e54df40d958d0bf237b597176b33bba1f0390"
+metafile = true
+
+[[files]]
+file = "mods/dyenamicsandfriends.pw.toml"
+hash = "12c2dda2f6a2391c455257a4986326e83ad35257ecc4d53f9ccfbb84bf0478f4"
 metafile = true
 
 [[files]]
@@ -2252,6 +2271,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "6d335f37a007aee8cdee591b9b9c1676ed8aafded8f41fcfa63bd30f6b1e85f0"
+metafile = true
+
+[[files]]
+file = "mods/journey-pac.pw.toml"
+hash = "f4793e6e47abfa075338e05eb970400b1f083f5e569337bb25e50758e265b382"
 metafile = true
 
 [[files]]
@@ -2682,6 +2706,11 @@ metafile = true
 [[files]]
 file = "mods/structure-essentials-forge-fabric.pw.toml"
 hash = "dcbf8b45454dc87262ef3660d21e7fb73f035e3a65aa8fb6c1c711c63cec335d"
+metafile = true
+
+[[files]]
+file = "mods/strut-your-stuff.pw.toml"
+hash = "8fd78673fc8aa432571c90eccc4ef975ff81f9a32ea948f826e6da8f63e33b6e"
 metafile = true
 
 [[files]]

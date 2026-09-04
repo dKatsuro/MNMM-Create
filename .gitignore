@@ -27,6 +27,7 @@ config/paxi/datapacks/*.zip
 !config/paxi/datapacks/ExtraCreateRecipes.zip
 !config/paxi/datapacks/create waystones 1.21.zip
 !config/paxi/datapacks/thingsandmisc_crushedmagma_disable.zip
+!config/paxi/datapacks/create_lac_uninvert_redstone_link.zip
 
 # Claude Code working notes. Local only -- deliberately untracked.
 # Also listed in .packwizignore: a root file that is gitignored but still
