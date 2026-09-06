@@ -1,35 +1,13 @@
 name = "Create: Bits 'n' Bobs"
-filename = "bits_n_bobs-2.2.9.jar"
-# Both sides -- decorative and mechanical Create additions, all registry content.
-#
-# Updated 0.0.44 -> 2.2.9. That jump added two hard dependencies, both brought in
-# alongside it: azimuth [1.4.6,) (azimuth-api.pw.toml) and struts [1.0.0,)
-# (strut-your-stuff.pw.toml). It also raised the floors to create [6.0.10,) and
-# neoforge [21.1.219,); we are on Create 6.0.10 exactly and NeoForge 21.1.234.
-#
-# WORLD NOTE: 2.2.9 dropped four block ids that 0.0.44 had -- small_cogwheel_chain,
-# large_cogwheel_chain and their _flanged_ variants -- consolidated into
-# cogwheel_chain_carriage plus a chain pulley. Any placed under 0.0.44 are lost on
-# load. 29 blocks added; the only item removed is icon_lightbulb, a GUI icon.
-#
-# tfmg is declared incompatible for (,1.2.2] and TFMG is not in this pack. All
-# three optional integrations ARE live: createcasing (Create Encased), dndecor
-# (Design n' Decor) and create_connected are all installed, so every compat.*
-# entry in bits_n_bobs.mixins.json loads rather than being gated off by
-# BnbMixinPlugin.
-#
-# Mixin surface is large: 39 common + 21 client, deep into Create internals
-# (KineticBlockEntity, RotationPropagator, ContraptionCollider, BeltBlock,
-# MechanicalPistonBlock, PistonExtensionPole, fluid pipes and tanks). 0.0.44 had
-# 10 + 5. Suspect this first if Create behaviour goes strange.
+filename = "bits_n_bobs-2.3.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/T8bvmqVZ/versions/wkaZQqvJ/bits_n_bobs-2.2.9.jar"
+url = "https://cdn.modrinth.com/data/T8bvmqVZ/versions/FDhmsc9R/bits_n_bobs-2.3.0.jar"
 hash-format = "sha512"
-hash = "a00e93cc975b83f89cf15a67b45374e27977d5087f647564433d1f5ac797572aa2de5f14cd2d923b2580800ac84300b298489f65967e82aef451e57222da2ba1"
+hash = "3b2f16b52eddfb5feeefd021352582b8af655ce5bacde2c25069ccd890e67b8680feb2fe22be75bab953c967a701826202002631a3e70c0d1275219d8a389ba4"
 
 [update]
 [update.modrinth]
 mod-id = "T8bvmqVZ"
-version = "wkaZQqvJ"
+version = "FDhmsc9R"

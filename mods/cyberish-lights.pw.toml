@@ -4,7 +4,7 @@ filename = "cyberishlights-1.21.1-2.0.0.jar"
 # other block, so the server needs them to exist.
 #
 # neoforge [21.1.233,) and minecraft [1.21.1]: an unusually tight floor for a
-# decoration mod, comfortably met by our 21.1.234. No mixins, no mod
+# decoration mod, comfortably met by our 21.1.249. No mixins, no mod
 # dependencies.
 #
 # The companion "Cyberish Lights Depot" project is not in the pack: its only

@@ -6,7 +6,7 @@ filename = "ftb-ultimine-neoforge-2101.1.15.jar"
 # project (2 versions, loader "minecraft"), not this mod. This matches how the
 # pack already sources ftb-library / ftb-quests / ftb-teams.
 #
-# Requires ftblibrary [2101.1.28,) -- we are on 2101.1.33, so do not downgrade
+# Requires ftblibrary [2101.1.28,) -- we are on 2101.1.35, so do not downgrade
 # FTB Library. ftbezcrystals is declared optional and is not installed.
 # Keep at 2101.1.15 or newer: Create Ultimine requires ftbultimine [2101.1.14,).
 side = "both"

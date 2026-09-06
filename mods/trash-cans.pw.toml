@@ -1,32 +1,23 @@
 name = "Trash Cans"
-filename = "trashcans-1.0.18c-neoforge-mc1.21.jar"
-# Both sides: every manifest dependency is side = "BOTH", and voiding items,
-# fluids or energy is a server-side world operation. The filter GUI is the only
-# client-facing part.
+filename = "trashcans-1.1.0-neoforge-mc1.21.jar"
+# Both sides: voiding items, fluids or energy is a server-side world operation;
+# the filter GUI is the only client-facing part.
 #
-# Four blocks -- item, liquid, energy and ultimate trash cans -- each with a
-# whitelist/blacklist filter. They act as insert-only endpoints for pipes and
-# conduits (the 1.0.18b changelog is specifically a pipe-connection fix), so
-# they can terminate a Create fluid or item line directly.
-#
-# Both required libs were already in the pack, so this pulled in nothing new:
-#   supermartijn642corelib   [1.1.17,1.2.0)  -- we ship 1.1.21. The upper bound
-#                                               is exclusive, so bumping Core Lib
-#                                               to 1.2 will hard-fail this mod.
-#   supermartijn642configlib [1.1.6,)        -- we ship 1.1.8.
-#
-# neoforge [21.0.78-beta,) and minecraft [1.21,1.21.2); we are on 21.1.234 / 1.21.1.
+# 1.1.0 RAISED its core-lib floor: supermartijn642corelib [1.1.24,1.2.0), and we
+# ship exactly 1.1.24 -- no margin below. Rechiseled needs [1.1.20,1.2.0) and
+# Prickle [1.1.20,1.2.0) off the same lib, so Core Lib is pinned in practice to
+# the 1.1.24-1.1.x window by these three. supermartijn642configlib [1.1.6,).
 #
 # Licensed "All rights reserved" in the manifest -- fine to ship via packwiz,
-# which links to the author's own Modrinth CDN rather than redistributing.
+# which links to the author's own CDN rather than redistributing.
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/4QrnfueM/versions/qjxSupgx/trashcans-1.0.18c-neoforge-mc1.21.jar"
+url = "https://cdn.modrinth.com/data/4QrnfueM/versions/lSKYKJdm/trashcans-1.1.0-neoforge-mc1.21.jar"
 hash-format = "sha512"
-hash = "4e9bb4916b82e8fa58d9c20dbf56b00d149551553e3249a0923c80f9538433bdb3b83865766720c9214d9e18f7c798e68c3037f923fd2ca50a083de1fee31f64"
+hash = "0350245afb135ad611694393fd4e94ad00fdf16dcabbf7167c90f54649c2738f4eba3376888b6f37247694510bf7f60607d0fdeaec1ce1ff7b678daa03b0a723"
 
 [update]
 [update.modrinth]
 mod-id = "4QrnfueM"
-version = "qjxSupgx"
+version = "lSKYKJdm"

@@ -3,13 +3,13 @@ filename = "easy-villagers-neoforge-1.21.1-1.1.42.jar"
 # Both sides: every manifest dependency is side = "BOTH", and picking villagers
 # up, trading with them and breeding them are all server-side operations.
 #
-# neoforge [21.0.161,) -- we are on 21.1.234.
+# neoforge [21.0.161,) -- we are on 21.1.249.
 # minecraft [1.21,1.21.1] -- the upper bound is INCLUSIVE at 1.21.1, so a bump
 # to 1.21.2 or later hard-fails this mod.
 #
 # Three optional integrations declared; two of them are live here:
-#   jei          -- we ship JEI 19.39.0.372 (side = both, see jei.pw.toml).
-#   jade         -- we ship Jade 15.10.5.
+#   jei          -- we ship JEI 19.53.0.425 (side = both, see jei.pw.toml).
+#   jade         -- we ship Jade 15.10.6.
 #   theoneprobe  -- not installed, and not worth adding; Jade covers it.
 #
 # Overlaps in theme with Trading Post, Create: Trading Floor and Tradeworks,

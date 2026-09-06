@@ -16,6 +16,8 @@
 
 # Repo documentation
 /README.md
+/CHANGELOG.md
+/CHANGELOG-BACKLOG-HANDOFF.md
 /LICENSE
 
 # Local debugging scratch — captured server logs, crash dumps. Not anchored,
@@ -35,3 +37,9 @@ logs/
 # for review, never indexed. Anchored, so it cannot match a mod-shipped
 # config/bluemap path.
 /config/bluemap/
+
+# Prism Launcher instance export. This is the shell a player imports to BOOTSTRAP
+# a client -- it is never part of a client install, and shipping it would have
+# clients download a copy of the zip they installed from. Anchored, so it cannot
+# match anything a mod ships.
+/MNMM Create.zip

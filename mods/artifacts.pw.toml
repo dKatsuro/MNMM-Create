@@ -16,6 +16,7 @@ filename = "artifacts-neoforge-13.2.3.jar"
 # up at runtime because Curios is in the pack; there is a parallel Accessories
 # integration that stays dormant.
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/aE1GPGY4/artifacts-neoforge-13.2.3.jar"

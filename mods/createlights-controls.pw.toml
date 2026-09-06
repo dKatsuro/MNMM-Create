@@ -5,7 +5,7 @@ filename = "create-lights-and-controls-1.21.1-2.2.1.jar"
 # Panel) that talk to Create's Redstone Link network, so the server needs the
 # registry entries and the link frequencies.
 #
-# create [0.5,) ordered AFTER, minecraft [1.21.1], and neoforge [21.1.234,).
+# create [0.5,) ordered AFTER, minecraft [1.21.1], and neoforge [21.1.249,).
 # That NeoForge floor is why pack.toml and compose.yaml moved off 21.1.233 --
 # 2.2.1 is the only 1.21.1 build published, so there is no older jar to fall back
 # to, and on 21.1.233 it hard-fails at load. Ships no mixins.

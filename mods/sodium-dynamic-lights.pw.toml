@@ -11,7 +11,7 @@ filename = "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar"
 # required = true with injectors.defaultRequire = 1 and targets Sodium directly
 # (sodium.ArrayLightDataCacheMixin, sodium.FlatLightPipelineMixin,
 # sodium.LightDataAccessMixin, sodium.SodiumOptionsGuiMixin), so Sodium is a de
-# facto hard requirement despite not being declared. We ship Sodium 0.8.12.
+# facto hard requirement despite not being declared. We ship Sodium 0.8.13.
 #
 # DO NOT add Sodium Options API. Modrinth lists it as a required dependency of
 # this mod and `packwiz modrinth add` will pull it in automatically, but it is

@@ -1,15 +1,13 @@
 name = "Forgified Fabric API"
-filename = "forgified-fabric-api-0.116.14+2.3.0+1.21.1.jar"
-# Client-only, alongside Sinytra Connector. Required by Continuity
-# (side = "client"); no server-side mod declares a dependency on it.
+filename = "forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "95d2a221fec6e03f13273b8ffb2d606d576530cf"
+hash = "87b28db4ef88268fbbaea2c0ca7e3dfcc27961a8"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8445798
+file-id = 8726480
 project-id = 889079
