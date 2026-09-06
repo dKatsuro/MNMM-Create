@@ -48,6 +48,29 @@ services:
       STOP_SERVER_ANNOUNCE_DELAY: "30"
       PVP: "false"
 
+      # --- access control ---
+      # The pack ships servers.dat, so this address is public in a public repo.
+      # The whitelist is what actually keeps the server private.
+      #
+      # ENABLE_WHITELIST only sets the white-list property. Membership is NOT
+      # managed here on purpose: setting a WHITELIST var makes the image re-apply
+      # that list on every start, and a push reboots the server, so runtime adds
+      # would be silently reverted on the next deploy. Add and remove players
+      # over rcon instead -- those land in whitelist.json on the /data volume,
+      # which nothing in this file touches:
+      #
+      #   docker exec MNMM-Create rcon-cli whitelist add <player>
+      #   docker exec MNMM-Create rcon-cli whitelist list
+      #
+      # ENFORCE_WHITELIST kicks anyone no longer on the list when it is reloaded.
+      #
+      # TODO: not enabled yet. Turning these on with an empty whitelist.json
+      # locks EVERYONE out, including the owner, and a push reboots the server
+      # immediately -- so populate the roster over rcon FIRST, verify it with
+      # "whitelist list", and only then uncomment these two lines and push.
+      # ENABLE_WHITELIST: "TRUE"
+      # ENFORCE_WHITELIST: "TRUE"
+
       RCON_PASSWORD: ${RCON_PASSWORD}
     volumes:
       - ${CONFIG_PATH}/minecraft/MNMM-Create:/data

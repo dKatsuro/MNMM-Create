@@ -96,6 +96,12 @@ what the JVM arguments are for.
 
 ### Known follow-up
 
+- **The server is not whitelisted, and the pack now ships the address.** The
+  re-exported zip includes `servers.dat`, so `minecraft.selfstack.org` is public
+  in a public repo with nothing gating joins but online-mode. `compose.yaml` has
+  `ENABLE_WHITELIST` / `ENFORCE_WHITELIST` staged as comments, with the ordering
+  they need. Populate the roster over rcon first — enabling them against an empty
+  `whitelist.json` locks everyone out, owner included — then uncomment and push.
 - **Create: Food 2.7.1** moved all cross-mod compat to config. Its shipped
   `createfood-client.toml` / `createfood-server.toml` still hold the old
   generated lists, so newly supported compat content will not appear until those
