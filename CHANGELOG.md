@@ -4,6 +4,39 @@ Patch notes for the MNMM Create modpack.
 
 ---
 
+## 2.1.1
+
+JourneyMap is now the pack's default map. Xaero's Minimap and Xaero's World Map
+are still installed and fully functional -- they are just silent out of the box,
+so waypoints and minimaps no longer render twice.
+
+### Changed
+
+- **Xaero's minimap and in-world waypoints are off by default.** With JourneyMap
+  drawing both as well, every waypoint beacon appeared twice out in the world and
+  two minimaps sat on the HUD at once. This one applies to existing installs on
+  your next sync.
+- **JourneyMap's fullscreen map is now `M`** on new installs, and Xaero's world
+  map moves from `M` to `K`. `K` was the only letter not already taken by some
+  mod in the pack.
+
+### Switching back to Xaero's
+
+Nothing was removed. Press `Y` for Xaero's minimap settings and turn *Display
+Minimap* back on -- waypoints reappear on it immediately. In-world beacons live
+under *Waypoint Settings -> Waypoints Ingame*. You will probably also want
+JourneyMap's own minimap off (`Ctrl+J`), or you are back to two of everything.
+
+### Existing players keep their keybinds
+
+The `M` binding ships through Configured Defaults, which only writes
+`options.txt` when there is not one there already. **If you already have this
+pack installed, none of your keys move** -- JourneyMap's fullscreen stays on `J`
+and Xaero's world map stays on `M`. Rebind them under Options -> Controls if you
+want to match the new default.
+
+---
+
 ## 2.1.0
 
 **NeoForge 21.1.234 -> 21.1.249. You must update your client before you can

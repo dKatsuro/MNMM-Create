@@ -1324,7 +1324,7 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "adc1492fda006d0c77095920514cea625fe1a48a19edfd3b835222aab874d11c"
+hash = "c13fa771e327b5e160b183d2f313b46ba686e09d7b03375b954e814c7c4de270"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
@@ -1376,7 +1376,7 @@ hash = "7d856d3f9655abc661ac67b450a0c956bbf80323786b407301fbdca02d2c5b8b"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "7620201956eb739c5ec081d4dbd643c51cefdc9d0e267067137673a37ccc5fc5"
+hash = "fb362b1b8410019b87f4e6d0ba4a98a67f26c4d4dc0d7c26eb79c787f2c8b1fa"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
