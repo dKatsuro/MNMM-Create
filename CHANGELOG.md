@@ -4,6 +4,49 @@ Patch notes for the MNMM Create modpack.
 
 ---
 
+## 2.2.0
+
+The Mechanical Generator from Create Cobblestone can now be set to three more
+block types. Nothing else changes, and existing generators keep whatever they
+were already set to.
+
+### Added
+
+- **Cobbled deepslate, netherrack and calcite generators.** Right-click a
+  Mechanical Generator with the block to set its type, exactly as with
+  cobblestone. That brings the list to eight: cobblestone, stone, basalt,
+  limestone, scoria, cobbled deepslate, netherrack and calcite.
+- All three run on the mod's default numbers, so they cost the same stress and
+  produce at the same rate as a cobblestone generator.
+
+### Why these three
+
+Deepslate was always supported by the mod, just gated behind a datapack it does
+not ship. This pack now provides one, with netherrack and calcite on top.
+
+Deliberately left out:
+
+- **Asurine, crimsite, ochrum and veridium.** Create crushes these into zinc,
+  iron, gold and copper. A generator for any of them is an infinite ore farm
+  running on nothing but rotation.
+- **Tuff**, which crushes into flint plus gold, copper, zinc, iron and electrum
+  nuggets. The same problem, quieter.
+- **Obsidian**, which this pack already went out of its way to strip out of the
+  Easy Stone Generators datapack.
+- **Plain, uncobbled deepslate**, which you only ever get with Silk Touch.
+
+Calcite mills into bone meal at 75%, so it is the one addition that does create
+a resource. It is a slow trickle and bone meal is already farmable, so it went
+in.
+
+### No client update required
+
+The mod sends its generator types to clients over the network, so a client still
+on 2.1.1 can join and use the new types without re-syncing. You will pick up the
+datapack itself on your next sync either way.
+
+---
+
 ## 2.1.1
 
 JourneyMap is now the pack's default map. Xaero's Minimap and Xaero's World Map

@@ -1031,6 +1031,10 @@ file = "config/paxi/datapacks/create_lac_uninvert_redstone_link.zip"
 hash = "d104ff22f10747fbbad9d23ad714205309843819c433776450c424a4997491a9"
 
 [[files]]
+file = "config/paxi/datapacks/mnmm_extra_generators.zip"
+hash = "1492c6e67d4846e5398a22c348a6ff0f2206b1561873e1ca185672190fa1cf6d"
+
+[[files]]
 file = "config/paxi/datapacks/thingsandmisc_crushedmagma_disable.zip"
 hash = "dfe4e52403bbdca519b919f064f4b5ab96cc8744cb51f0c60fdaeaa1ec7f2d09"
 

@@ -1,12 +1,12 @@
 name = "MNMM Create"
 author = "Katsuro"
-version = "2.1.1"
+version = "2.2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "efa6a8763d4723be41d5621b58348d0a3b9916cdaf0833a366dd4f825ef71c99"
+hash = "a62251677d28176ab017b88966b364b9af4fb133dd1993e9023f3c4d1ce96d61"
 
 [versions]
 minecraft = "1.21.1"
