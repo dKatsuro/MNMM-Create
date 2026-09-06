@@ -4,6 +4,38 @@ Patch notes for the MNMM Create modpack.
 
 ---
 
+## 2.3.1
+
+Hotfix. 2.3.0 could not start the server; this reverts the mod responsible.
+The other four lighting mods from 2.3.0 are unaffected and stay in.
+
+### Removed
+
+- **Create: DDCL.** It crashes a dedicated server on every boot, so 2.3.0 never
+  came up at all.
+
+  Its creative-tab builder reads a value from the mod's *client* config. A
+  dedicated server never loads a client config, so that read throws
+  `IllegalStateException: Cannot get config value before config is loaded`.
+  Normally a server would never build creative tab contents and the bug would
+  stay hidden, but CC: Tweaked rebuilds them during server start, which walks
+  straight into it.
+
+  All three published 1.21.1 builds -- 1.0.1, 1.0.2 and 1.0.3 -- contain the
+  same read, so there was no older version to fall back to. It cannot be worked
+  around with a config file either, because the config in question is the one
+  that never loads.
+
+### Nothing to do
+
+The server never finished starting on 2.3.0, so no world ever contained a DDCL
+lamp and nothing can be lost by removing it. Clients re-sync on next join as
+usual.
+
+The one exception: if you loaded a *single-player* world in the few minutes
+2.3.0 was live and placed dimmable cage lamps in it, those blocks are gone.
+
+---
 ## 2.3.0
 
 Five decoration mods that add light sources, picked to sit alongside the

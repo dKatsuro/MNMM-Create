@@ -1698,11 +1698,6 @@ hash = "afc84b236915ef45a39a939bc33ffa10201431c78ed7a66bbabe9b5780faff4f"
 metafile = true
 
 [[files]]
-file = "mods/create-ddcl.pw.toml"
-hash = "4f135b4fd4029c1cb2cdc022de6b1df22f6c394e9ae1c70777a22458a98ce07c"
-metafile = true
-
-[[files]]
 file = "mods/create-deco.pw.toml"
 hash = "c7a5c401d697ad4cc6a0ff69d1c18f08cf2993a1e3bbe23d976aae8f460bd8c4"
 metafile = true
