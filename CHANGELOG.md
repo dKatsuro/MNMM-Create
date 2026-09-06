@@ -4,6 +4,41 @@ Patch notes for the MNMM Create modpack.
 
 ---
 
+## 2.3.0
+
+Five decoration mods that add light sources, picked to sit alongside the
+lighting the pack already had rather than duplicate it. Purely additive.
+
+### Added
+
+- **Create: DDCL.** Dimmable versions of Create: Deco's cage lamps, in andesite,
+  brass, copper, industrial iron, iron, zinc, gold and netherite, each in red,
+  blue, green and yellow. Light level follows redstone power, so a comparator or
+  a sequenced pulse generator gives you sixteen steps between off and full. Fully
+  powered, they behave exactly like the Create: Deco lamps they are built from,
+  and they come with ponders.
+- **IndustrialDeco (Street Lamps).** Exterior and utility lighting, which nothing
+  in the pack covered: street lamps, office light fixtures, cage lamps, wall
+  switches, wires, distribution boxes, warning poles, chimneys and benches.
+- **Night Lights.** Twenty-odd modern light panels that mount on any face and
+  work underwater. Every electric light can be assigned a channel from 0 to 8 by
+  shift-clicking it, and a Wall Switch on that channel toggles just those lights;
+  channel 0 toggles everything. There are also light sensors and a dimmable
+  light.
+- **Additional Lanterns.** Lanterns in every vanilla material and all sixteen dye
+  colours, with matching chains.
+- **Simply Light.** Illuminator blocks in all sixteen colours, plus lamp posts,
+  edge lights and bulbs. The clean, flat counterpoint to everything above.
+
+### Client update required
+
+Adding mods changes the mod list, so the redeploy disconnects anyone online and
+every client has to re-sync before rejoining.
+
+No backup needed, though. All five only register new blocks -- nothing is
+removed or renamed, so existing worlds load exactly as they did.
+
+---
 ## 2.2.0
 
 The Mechanical Generator from Create Cobblestone can now be set to three more

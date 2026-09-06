@@ -1,0 +1,23 @@
+name = "Night Lights"
+filename = "nightlights-neoforge-1.21.1-1.4.0.jar"
+# Both sides. Modern light panels placeable on any face and underwater, with a
+# channel system (shift-click to assign 0-8), wall switches and light sensors --
+# all server-side state, so the server needs the jar.
+#
+# NOTE: this is the smaller "Night Lights" (Modrinth rGzJrU0n). Ninni's far more
+# popular Night Lights (s7pMb898, ~843k downloads) declares the SAME modId
+# "nightlights", so the two are mutually exclusive. Do not add the other one.
+#
+# neoforge [21.1.128,) and minecraft [1.21.1,1.22). No hard mod dependencies;
+# jade is an optional CLIENT dep and is in the pack, theoneprobe is not.
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rGzJrU0n/versions/J1bpoY3F/nightlights-neoforge-1.21.1-1.4.0.jar"
+hash-format = "sha512"
+hash = "1e6393946c86da771228956486b29e0f8f722487b9f368883c6c3afe40e3c9fa88897c52792cf7679b54c7b71b8771d07e8ea5360ba7249c4145fd2bb7804e22"
+
+[update]
+[update.modrinth]
+mod-id = "rGzJrU0n"
+version = "J1bpoY3F"

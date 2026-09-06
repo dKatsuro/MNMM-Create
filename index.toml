@@ -1388,6 +1388,11 @@ hash = "c1f98a1e9d7201f0b6ddc3f705f43a53f7539978f48425de5c1177a310fe7b86"
 metafile = true
 
 [[files]]
+file = "mods/additional-lanterns.pw.toml"
+hash = "edb6e78f2a62b979504a7934a135fb098acba8fc44ab929e19a323f5ceff3812"
+metafile = true
+
+[[files]]
 file = "mods/aeronautics-claims.pw.toml"
 hash = "61538d621d6ec87e9887ae902f9457572e14086735fd04bb5111a1b15dcf4e0d"
 metafile = true
@@ -1690,6 +1695,11 @@ metafile = true
 [[files]]
 file = "mods/create-copycats-additions.pw.toml"
 hash = "afc84b236915ef45a39a939bc33ffa10201431c78ed7a66bbabe9b5780faff4f"
+metafile = true
+
+[[files]]
+file = "mods/create-ddcl.pw.toml"
+hash = "4f135b4fd4029c1cb2cdc022de6b1df22f6c394e9ae1c70777a22458a98ce07c"
 metafile = true
 
 [[files]]
@@ -2223,6 +2233,11 @@ hash = "306c6a05c47046994a065bd8a461bd1ba1a7a8187f267c35ddf81c0a3041ed98"
 metafile = true
 
 [[files]]
+file = "mods/industrialdeco.pw.toml"
+hash = "e36e12be3130c1a0a1f5d2d85f848f0131cfd2b7219e19fb7fcf3f7f1d2207a4"
+metafile = true
+
+[[files]]
 file = "mods/industrialized-architecture.pw.toml"
 hash = "63ef048031a4549c9dd56ddb654250ba6c89c604e3e56bfe2ae35ce8c39e0821"
 metafile = true
@@ -2458,6 +2473,11 @@ hash = "78cf82fda4c8a7ea9556cf4481b43f38762151bcac0a09fd412f82d5f0883cc7"
 metafile = true
 
 [[files]]
+file = "mods/night-lights.pw.toml"
+hash = "8d9e0416b49809e266041314637c58cf3a94e1ebcc5ac78500cf3d239cf3b218"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "5da18814472be5dc93a21886983646da3a7236413800075ac75229be82d114fa"
 metafile = true
@@ -2625,6 +2645,11 @@ metafile = true
 [[files]]
 file = "mods/simple-discord-rpc.pw.toml"
 hash = "a5d8e36f4138f75eac6a96eb1e3f2f0de902fa3fce33bcfb0ca205ba46c8ae56"
+metafile = true
+
+[[files]]
+file = "mods/simply-light.pw.toml"
+hash = "72135f03230b2ae98ccd6876c522e2f5d925d7f620f269189a9f312aaa8e57df"
 metafile = true
 
 [[files]]

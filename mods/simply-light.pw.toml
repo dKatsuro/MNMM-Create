@@ -1,0 +1,27 @@
+name = "Simply Light"
+filename = "simplylight-1.5.3+1.21.1-b4.jar"
+# Both sides. Registry content -- illuminator blocks in all 16 colours, lamp
+# posts, edge lights and bulbs.
+#
+# CurseForge-only: not published on Modrinth at all, hence
+# mode = "metadata:curseforge" with no [download] url.
+#
+# HELD BY CIRCUMSTANCE, not by a `pin` field: 1.5.3+1.21.1-b4 is a BETA and the
+# only 1.21.1 NeoForge build published. `packwiz curseforge add simply-light`
+# REFUSES it ("mod not available for the configured Minecraft version(s) ... or
+# loader") because it filters beta files, so it was added by full file URL:
+#   packwiz curseforge add https://www.curseforge.com/minecraft/mc-mods/simply-light/files/6219029
+# Re-adding by slug will keep failing that way until a stable 1.21.1 build ships.
+#
+# neoforge [20.6,) and no mod dependencies at all. No nested jars. MIT.
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d85bfed3824cb66d258acf11c73edaf11d583223"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6219029
+project-id = 300331
