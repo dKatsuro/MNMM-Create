@@ -1,0 +1,20 @@
+name = "Create:Egg Production"
+filename = "create_egg_production-1.1.0.jar"
+# Adds blocks and block entities (egg producer, egg incubator), so the
+# server needs it. Same 1.1.0 build on CurseForge and Modrinth.
+# Create [6.0.4,6.1.0) -- another member of the Create 6.1.0 wall.
+# Manifest quirk: its neoforge [21.1.152,) and minecraft [1.21.1] deps are
+# keyed under the wrong modId (create_egg_production vs createeggproduction),
+# so NeoForge only enforces the Create range. Ponder + JEI integration, no
+# nested jars.
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cVconmno/versions/ix0sktZJ/create_egg_production-1.1.0.jar"
+hash-format = "sha512"
+hash = "02921508a71d3c2a0dbc2cfb60495483bf07bd0c4eaea836fc6a863f1f8ce2bbcc6033e843de319a3205835f0855a36d2c8f4184e4d00bd038d1dcef89cb8e19"
+
+[update]
+[update.modrinth]
+mod-id = "cVconmno"
+version = "ix0sktZJ"

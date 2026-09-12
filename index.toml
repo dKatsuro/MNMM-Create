@@ -1973,6 +1973,11 @@ hash = "5931025bb6c50fa9064bd6c3c3ca51afb4119535bd77d8cc01b6509e53a9abc1"
 metafile = true
 
 [[files]]
+file = "mods/createegg-production.pw.toml"
+hash = "4718142265354cf8da412140ca998c49f895d8b1644d957d4c434cdf053c0494"
+metafile = true
+
+[[files]]
 file = "mods/createlazytick.pw.toml"
 hash = "0590e6ac543f33f0df98b90fe1ccfd57bbfe2af396dc3ef87264c313f104e7ff"
 metafile = true

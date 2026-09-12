@@ -4,6 +4,27 @@ Patch notes for the MNMM Create modpack.
 
 ---
 
+## 2.4.0
+
+One Create addon for automated egg farming. Purely additive.
+
+### Added
+
+- **Create: Egg Production.** An Egg Producer block that turns water and seeds
+  into eggs under rotational power, so you can skip the vanilla chicken farm
+  entirely, plus an Egg Incubator for hatching them back into chickens. Comes
+  with ponders and JEI recipes.
+
+### Client update required
+
+Adding a mod changes the mod list, so the redeploy disconnects anyone online and
+every client has to re-sync before rejoining.
+
+No backup needed. It only registers new blocks -- nothing is removed or renamed,
+so existing worlds load exactly as they did.
+
+---
+
 ## 2.3.1
 
 Hotfix. 2.3.0 could not start the server; this reverts the mod responsible.
