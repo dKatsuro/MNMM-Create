@@ -4,6 +4,56 @@ Patch notes for the MNMM Create modpack.
 
 ---
 
+## 2.5.0
+
+Two mods from the DragonsPlus family move together. Additive, plus a worthwhile
+server performance fix.
+
+### Added
+
+- **Packagers can now refill machines mid-recipe** with single- or
+  multi-serving packages, and unpack whole-serving packages in batches.
+  Supported: Farmer's Delight Cooking Pots, Brewin' and Chewin' Kegs, Miner's
+  Delight Copper Pots, Dungeon's Delight Monster Pots, Extra Delight Ovens and
+  Chillers, and Hearth and Harvest Casks. Overfill is rejected outright rather
+  than spilling into spare slots, and mixed or unbalanced inputs are refused.
+
+### Fixed
+
+- **Severe server tick lag from Spouts checking items on Depots** -- including
+  plain empty and filled buckets. Brewin' and Chewin' fill/empty fallbacks now
+  cache their recipe selection instead of rescanning every tick. If your
+  bottling or bucket lines have felt like the whole server was chugging, this
+  is the one.
+- The Mechanical Saw ignored its filter on Cutting Board recipes converted from
+  Farmer's Delight, so a filtered saw would cut whatever reached it.
+- Loot table errors on Fragile Fluid Tanks when Simulated is not installed.
+- Ponder scenes corrected for Cultural Delights feasts, Rustic Delight pancake
+  stacks, Festive Delight chicken and Hearth and Harvest Casks. The Mechanical
+  Arm's Ponder target list now groups food variants into cycling cards --
+  hover to pause, scroll to pick one.
+
+### Mod updates
+
+- Create: Central Kitchen 2.6.0 -> 2.6.2b
+- Create: Dragons Plus 1.11.8b -> 1.11.9
+
+Dragons Plus is not optional here: Central Kitchen 2.6.1 raised its floor to
+1.11.9, so the two have to move in the same push or Central Kitchen refuses to
+load. Create: Enchantment Industry and Create: Integrated Farming also depend on
+Dragons Plus, both with open-ended floors well below 1.11.9, so they are
+unaffected.
+
+### Client update required
+
+The mod list changed, so the redeploy disconnects anyone online and every client
+has to re-sync before rejoining.
+
+No backup needed. Nothing was removed or renamed, and both builds target Create
+6.0.10 -- what the pack already ships -- so existing worlds load as they did.
+
+---
+
 ## 2.4.0
 
 One Create addon for automated egg farming. Purely additive.
