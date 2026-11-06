@@ -1,0 +1,63 @@
+name: deploy
+
+# Instant pack deploys. When a push to main changes pack.toml (a version bump
+# or a `packwiz refresh` after changing mods/config), point the server in
+# dKatsuro/my-docker-stacks (hosts/vps/mnmm-create/compose.yaml) at this exact
+# commit. That repo's CI then promotes the change and doco-cd recreates the
+# server, which installs the pack via packwiz on start -- about a minute end to
+# end. Pushes that don't touch pack.toml (README, CHANGELOG) deploy nothing.
+#
+# Needs secret STACKS_DEPLOY_KEY: the private half of a deploy key that has
+# WRITE access to my-docker-stacks only.
+#
+# Roll back: revert the bump commit in my-docker-stacks (not here), or run this
+# workflow by hand on an older commit of this repo.
+
+on:
+  push:
+    branches: [main]
+    paths: [pack.toml]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read pack version
+        id: pack
+        run: echo "version=$(sed -n 's/^version = "\(.*\)"$/\1/p' pack.toml)" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+        with:
+          repository: dKatsuro/my-docker-stacks
+          ssh-key: ${{ secrets.STACKS_DEPLOY_KEY }}
+          path: stacks
+
+      - name: Point the server at this commit
+        working-directory: stacks
+        env:
+          VERSION: ${{ steps.pack.outputs.version }}
+        run: |
+          f=hosts/vps/mnmm-create/compose.yaml
+          sed -i -E \
+            -e "s#(raw\.githubusercontent\.com/dKatsuro/MNMM-Create/)[0-9a-f]{40}(/pack\.toml)#\1${GITHUB_SHA}\2#" \
+            -e "s#^(      MNMM_PACK_VERSION: ).*#\1\"${VERSION}\"#" "$f"
+          if git diff --quiet; then echo "Server already runs ${GITHUB_SHA}"; exit 0; fi
+          git config user.name "MNMM-Create deploy"
+          git config user.email "actions@github.com"
+          git commit -qam "mnmm-create: pack ${VERSION} (${GITHUB_SHA::7})" \
+            -m "From dKatsuro/MNMM-Create@${GITHUB_SHA} by its deploy workflow."
+          for i in 1 2 3 4 5; do
+            git push origin HEAD:main && exit 0
+            git pull --rebase origin main
+          done
+          exit 1
